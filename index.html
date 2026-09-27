@@ -1,0 +1,1847 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Haroon Rasool | Social Media Strategist &amp; Digital Marketing Expert</title>
+  <meta name="description" content="Social Media Strategist helping businesses grow with organic social media, Meta Ads, UGC content, product photography, and YouTube growth. Book a free consultation.">
+  <meta name="author" content="Haroon Rasool">
+  <meta name="theme-color" content="#0A0A0F">
+  <meta name="color-scheme" content="dark">
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Haroon Rasool | Social Media Strategist & Digital Marketing Expert">
+  <meta property="og:description" content="Organic social media growth, Meta Ads, UGC content, product photography and YouTube growth. Book a free consultation.">
+  <meta property="og:image" content="panda.jpeg"><!-- when live, replace with the absolute URL, e.g. https://yourdomain.com/panda.jpeg -->
+  <meta property="og:site_name" content="Haroon Rasool">
+
+  <!-- Twitter card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Haroon Rasool | Social Media Strategist & Digital Marketing Expert">
+  <meta name="twitter:description" content="Organic social media growth, Meta Ads, UGC content, product photography and YouTube growth. Book a free consultation.">
+  <meta name="twitter:image" content="panda.jpeg">
+
+  <!-- Favicon: inline "panda mark" -->
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Ccircle cx='32' cy='32' r='31' fill='%230A0A0F'/%3E%3Ccircle cx='18' cy='15' r='9' fill='%23F7F6FB'/%3E%3Ccircle cx='46' cy='15' r='9' fill='%23F7F6FB'/%3E%3Ccircle cx='32' cy='37' r='17' fill='%23F7F6FB'/%3E%3Cellipse cx='25' cy='35' rx='5' ry='7' fill='%230A0A0F' transform='rotate(-16 25 35)'/%3E%3Cellipse cx='39' cy='35' rx='5' ry='7' fill='%230A0A0F' transform='rotate(16 39 35)'/%3E%3Ccircle cx='32' cy='32' r='30' fill='none' stroke='%236A2FD0' stroke-width='2.5'/%3E%3C/svg%3E">
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Sora:wght@500;600;700;800&family=Inter:wght@400;500;600;700;800&family=Instrument+Serif:ital@1&display=swap" rel="stylesheet">
+
+  <!-- Structured data -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "Person",
+        "name": "Haroon Rasool",
+        "jobTitle": "Social Media Strategist & Digital Marketing Professional",
+        "email": "mailto:Haroonrasool289@gmail.com",
+        "telephone": "+92-328-1206398",
+        "description": "Social Media Strategist helping businesses grow with organic social media, Meta Ads, UGC content, product photography, and YouTube growth.",
+        "knowsAbout": ["Social Media Marketing", "Meta Ads", "UGC Content Creation", "Product Photography", "YouTube Growth", "Lead Generation"]
+      },
+      {
+        "@type": "ProfessionalService",
+        "name": "Haroon Rasool — Social Media Strategy & Digital Marketing",
+        "provider": { "@type": "Person", "name": "Haroon Rasool" },
+        "areaServed": "Worldwide",
+        "priceRange": "$$",
+        "makesOffer": [
+          { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Organic Social Media Growth" } },
+          { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Meta Ads & Paid Growth" } },
+          { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "UGC Content Creation" } },
+          { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Product Photography" } },
+          { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "YouTube Organic Growth" } }
+        ]
+      }
+    ]
+  }
+  </script>
+
+  <style>
+    /* ==========================================================================
+       HAROON RASOOL — PANDA BRAND SITE
+       Contents:
+       01. Tokens & reset          07. Services (bento)
+       02. Base & utilities        08. Process
+       03. Custom cursor           09. Results / case study
+       04. Preloader               10. Why work with me
+       05. Navigation              11. CTA banner
+       06. Hero & marquee          12. Contact / footer / floating UI
+       13. Reveal system & reduced motion
+       ========================================================================== */
+
+    /* ---------- 01. Tokens & reset ---------- */
+    :root{
+      --bg:#0A0A0F;
+      --bg-black:#050508;
+      --surface:#13131C;
+      --surface-2:#191927;
+      --white:#F7F6FB;
+      --ink:#0A0A0F;
+      --blue:#1F2FA3;
+      --blue-deep:#16207A;
+      --purple:#6A2FD0;
+      --lav:#B9A6F5;
+      --blush:#F2C7D9;
+      --text:#F2F1F8;
+      --muted:#A8A6BD;
+      --muted-ink:#504F5E;
+      --line:rgba(247,246,251,.09);
+      --line-strong:rgba(247,246,251,.18);
+      --line-ink:rgba(10,10,15,.13);
+      --grad:linear-gradient(135deg,#1F2FA3 0%,#6A2FD0 100%);
+      --grad-text:linear-gradient(115deg,#DDD3FA 0%,#B9A6F5 55%,#9F7BEA 100%);
+      --ease:cubic-bezier(.22,1,.36,1);
+      --nav-h:78px;
+      --font-d:'Sora',ui-sans-serif,system-ui,sans-serif;
+      --font-b:'Inter',ui-sans-serif,system-ui,sans-serif;
+      --font-a:'Instrument Serif',Georgia,serif;
+    }
+    *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+    html{overflow-x:clip;scroll-padding-top:calc(var(--nav-h) + 18px)}
+    @media (prefers-reduced-motion:no-preference){html{scroll-behavior:smooth}}
+    body{
+      background:var(--bg);
+      color:var(--text);
+      font-family:var(--font-b);
+      font-size:16px;
+      line-height:1.7;
+      -webkit-font-smoothing:antialiased;
+      text-rendering:optimizeLegibility;
+      overflow-x:clip;
+    }
+    /* film grain — very low opacity, premium tactile feel */
+    body::after{
+      content:"";position:fixed;inset:0;z-index:2000;pointer-events:none;opacity:.045;
+      background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='180' height='180'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='2' stitchTiles='stitch'/%3E%3CfeColorMatrix type='saturate' values='0'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+    }
+    img{display:block;max-width:100%;height:auto}
+    a{color:inherit;text-decoration:none}
+    ul,ol{list-style:none}
+    button{font:inherit;color:inherit;background:none;border:0;cursor:pointer}
+    input,select,textarea{font:inherit;color:inherit}
+    ::selection{background:rgba(106,47,208,.55);color:#fff}
+    :focus-visible{outline:2px solid var(--lav);outline-offset:3px;border-radius:6px}
+    ::-webkit-scrollbar{width:10px}
+    ::-webkit-scrollbar-track{background:var(--bg)}
+    ::-webkit-scrollbar-thumb{background:#27273a;border-radius:99px;border:2px solid var(--bg)}
+    .skip-link{position:fixed;top:-60px;left:16px;z-index:8000;background:var(--white);color:var(--ink);padding:10px 18px;border-radius:99px;font-weight:700;transition:top .3s var(--ease)}
+    .skip-link:focus{top:14px}
+
+    /* ---------- 02. Base & utilities ---------- */
+    .container{width:100%;max-width:1280px;margin-inline:auto;padding-inline:clamp(20px,4.5vw,48px)}
+    .section{position:relative;padding-block:clamp(84px,11vw,148px)}
+    .light{
+      background:var(--white);color:var(--ink);
+      border-radius:clamp(28px,4.5vw,52px);
+      margin-inline:clamp(8px,1.6vw,24px);
+    }
+    .light ::selection{background:rgba(31,47,163,.85);color:#fff}
+    .eyebrow{
+      display:inline-flex;align-items:center;gap:12px;
+      font-size:12px;font-weight:800;letter-spacing:.24em;text-transform:uppercase;
+      color:var(--lav);
+    }
+    /* the two "panda ear" dots that open every section header */
+    .eyebrow::before{
+      content:"";width:9px;height:9px;border-radius:50%;background:var(--lav);flex:none;
+      box-shadow:-15px 3px 0 -2px rgba(185,166,245,.45);
+    }
+    .light .eyebrow{color:var(--blue)}
+    .light .eyebrow::before{background:var(--purple);box-shadow:-15px 3px 0 -2px rgba(106,47,208,.35)}
+    .section-head{max-width:720px;margin-bottom:clamp(44px,6vw,72px)}
+    .section-head.center{margin-inline:auto;text-align:center}
+    .section-head.center .eyebrow{justify-content:center}
+    .section-head.center .eyebrow::before{margin-left:15px}
+    h1,h2,h3{font-family:var(--font-d);letter-spacing:-.02em;line-height:1.06;font-weight:800}
+    h2{font-size:clamp(2.1rem,4.6vw,3.4rem);margin-top:18px}
+    .head-sub{margin-top:18px;color:var(--muted);font-size:clamp(1rem,1.3vw,1.13rem);max-width:56ch}
+    .light .head-sub{color:var(--muted-ink)}
+    .accent{
+      font-family:var(--font-a);font-style:italic;font-weight:400;font-size:1.07em;letter-spacing:0;line-height:1;
+      background:var(--grad-text);-webkit-background-clip:text;background-clip:text;color:transparent;
+      padding-inline:.03em;
+    }
+    .light .accent{background:linear-gradient(115deg,var(--blue) 0%,var(--purple) 90%);-webkit-background-clip:text;background-clip:text}
+    /* buttons */
+    .btn{
+      position:relative;display:inline-flex;align-items:center;justify-content:center;gap:10px;
+      min-height:52px;padding:14px 30px;border-radius:999px;border:1px solid transparent;
+      font-weight:700;font-size:15.5px;letter-spacing:.01em;white-space:nowrap;
+      transition:transform .45s var(--ease),box-shadow .45s var(--ease),background-color .3s,border-color .3s,color .3s;
+      will-change:transform;
+    }
+    .btn svg{flex:none}
+    .btn-primary{background:var(--grad);color:#fff;box-shadow:0 14px 34px -14px rgba(96,52,214,.65)}
+    .btn-primary:hover{box-shadow:0 20px 48px -14px rgba(106,47,208,.8)}
+    .btn-ghost{border-color:var(--line-strong);color:var(--white);background:rgba(247,246,251,.04)}
+    .btn-ghost:hover{border-color:rgba(247,246,251,.45);background:rgba(247,246,251,.08)}
+    .light .btn-ghost{border-color:rgba(10,10,15,.25);color:var(--ink);background:rgba(10,10,15,.03)}
+    .light .btn-ghost:hover{border-color:rgba(10,10,15,.5);background:rgba(10,10,15,.06)}
+    .btn-white{background:var(--white);color:var(--ink);box-shadow:0 14px 34px -14px rgba(5,5,15,.5)}
+    .btn-white:hover{box-shadow:0 20px 44px -14px rgba(5,5,15,.55)}
+    .btn-sm{min-height:44px;padding:10px 22px;font-size:14px}
+
+    /* circular frames + panda ear motif used across the site */
+    .panda-frame{position:relative;border-radius:50%;overflow:hidden;background:var(--surface-2)}
+    .panda-frame img{width:100%;height:100%;object-fit:cover}
+    .ear{position:absolute;width:11px;height:11px;border-radius:50%;background:var(--lav)}
+
+    /* ---------- 03. Custom cursor (desktop only) ---------- */
+    .cursor-dot,.cursor-ring{display:none}
+    @media (hover:hover) and (pointer:fine){
+      html.has-cursor,html.has-cursor *{cursor:none!important}
+      html.has-cursor .cursor-dot{display:block;position:fixed;z-index:7000;top:0;left:0;width:6px;height:6px;border-radius:50%;background:#fff;pointer-events:none;mix-blend-mode:difference}
+      html.has-cursor .cursor-ring{display:block;position:fixed;z-index:7000;top:0;left:0;width:38px;height:38px;border-radius:50%;border:1.5px solid rgba(255,255,255,.85);pointer-events:none;mix-blend-mode:difference;transition:width .3s var(--ease),height .3s var(--ease),opacity .3s;opacity:0}
+      html.has-cursor .cursor-ring.is-active{width:58px;height:58px;opacity:1}
+      html.has-cursor .cursor-ring.is-down{width:26px;height:26px}
+    }
+
+    /* ---------- 04. Preloader ---------- */
+    .preloader{
+      position:fixed;inset:0;z-index:5000;display:flex;align-items:center;justify-content:center;
+      background:var(--bg);
+      animation:preloaderOut .6s var(--ease) 1.25s forwards;
+    }
+    .preloader-badge{position:relative;width:132px;height:132px;border-radius:50%;display:grid;place-items:center}
+    .preloader-badge .panda-frame{position:absolute;inset:10px;border-radius:50%;overflow:hidden;border-radius:50%}
+    .preloader-badge svg{position:absolute;inset:0;width:100%;height:100%;transform:rotate(-90deg)}
+    .preloader-badge circle{fill:none;stroke-width:2.5;stroke-linecap:round}
+    .preloader-badge .ring-track{stroke:rgba(247,246,251,.12)}
+    .preloader-badge .ring-draw{stroke:url(#preGrad);stroke-dasharray:352;stroke-dashoffset:352;animation:ringDraw 1s var(--ease) .1s forwards}
+    @keyframes ringDraw{to{stroke-dashoffset:0}}
+    @keyframes preloaderOut{to{opacity:0;visibility:hidden}}
+
+    /* ---------- 05. Navigation ---------- */
+    .nav{position:fixed;top:0;left:0;right:0;z-index:1000}
+    .nav::before{
+      content:"";position:absolute;inset:0;opacity:0;transition:opacity .45s var(--ease);
+      background:rgba(10,10,15,.74);
+      -webkit-backdrop-filter:blur(18px) saturate(1.5);backdrop-filter:blur(18px) saturate(1.5);
+      border-bottom:1px solid var(--line);
+    }
+    .nav.is-scrolled::before{opacity:1}
+    .nav-inner{position:relative;display:flex;align-items:center;justify-content:space-between;gap:16px;height:var(--nav-h);transition:height .4s var(--ease)}
+    .nav.is-scrolled .nav-inner{height:64px}
+    .brand{display:inline-flex;align-items:center;gap:12px;min-height:44px}
+    .brand-logo{
+      position:relative;width:46px;height:46px;flex:none;border-radius:50%;padding:2px;
+      background:linear-gradient(140deg,rgba(201,187,248,.75),rgba(106,47,208,.4) 55%,rgba(242,199,217,.5));
+      box-shadow:0 4px 18px -6px rgba(10,10,25,.7),0 0 24px -6px rgba(106,47,208,.4);
+      transition:transform .45s var(--ease),box-shadow .45s var(--ease);
+    }
+    .brand:hover .brand-logo{box-shadow:0 6px 22px -6px rgba(10,10,25,.7),0 0 30px -6px rgba(106,47,208,.55)}
+    .brand-logo img{width:100%;height:100%;border-radius:50%;object-fit:cover}
+    .brand-name{font-family:var(--font-d);font-weight:700;font-size:16.5px;letter-spacing:-.01em}
+    .brand-name em{font-style:normal;color:var(--muted);font-weight:600}
+    .nav-links{display:none;align-items:center;gap:clamp(18px,2.4vw,34px)}
+    .nav-links a{position:relative;font-size:14.5px;font-weight:600;color:var(--muted);padding:8px 2px;transition:color .3s}
+    .nav-links a::after{content:"";position:absolute;left:0;bottom:2px;width:100%;height:1.5px;background:var(--grad);transform:scaleX(0);transform-origin:right;transition:transform .45s var(--ease)}
+    .nav-links a:hover,.nav-links a[aria-current="true"]{color:var(--white)}
+    .nav-links a:hover::after,.nav-links a[aria-current="true"]::after{transform:scaleX(1);transform-origin:left}
+    .nav-cta{display:none}
+    .nav-burger{position:relative;width:44px;height:44px;display:grid;place-items:center;border-radius:50%;border:1px solid var(--line-strong);background:rgba(247,246,251,.04)}
+    .nav-burger span{position:absolute;left:13px;right:13px;height:2px;background:var(--white);border-radius:2px;transition:transform .45s var(--ease),opacity .3s}
+    .nav-burger span:nth-child(1){transform:translateY(-4.5px)}
+    .nav-burger span:nth-child(2){transform:translateY(4.5px)}
+    .nav-burger[aria-expanded="true"] span:nth-child(1){transform:rotate(45deg)}
+    .nav-burger[aria-expanded="true"] span:nth-child(2){transform:rotate(-45deg)}
+    /* full-screen mobile menu */
+    .mobile-menu{
+      position:fixed;inset:0;z-index:990;display:flex;flex-direction:column;justify-content:center;
+      padding:calc(var(--nav-h) + 24px) clamp(24px,7vw,48px) 40px;
+      background:rgba(8,8,13,.92);
+      -webkit-backdrop-filter:blur(26px) saturate(1.4);backdrop-filter:blur(26px) saturate(1.4);
+      opacity:0;visibility:hidden;transition:opacity .5s var(--ease),visibility .5s;
+    }
+    .mobile-menu.is-open{opacity:1;visibility:visible}
+    .mm-links{display:flex;flex-direction:column;gap:6px}
+    .mm-links a{
+      display:flex;align-items:baseline;gap:16px;padding:12px 0;
+      font-family:var(--font-d);font-weight:700;font-size:clamp(1.9rem,7.5vw,2.8rem);letter-spacing:-.02em;color:var(--white);
+      opacity:0;transform:translateY(26px);transition:opacity .55s var(--ease),transform .55s var(--ease),color .3s;
+    }
+    .mm-links a small{font-family:var(--font-b);font-size:12px;font-weight:800;letter-spacing:.2em;color:var(--lav)}
+    .mm-links a:hover{color:var(--lav)}
+    .mobile-menu.is-open .mm-links a{opacity:1;transform:none}
+    .mobile-menu.is-open .mm-links a:nth-child(1){transition-delay:.08s}
+    .mobile-menu.is-open .mm-links a:nth-child(2){transition-delay:.14s}
+    .mobile-menu.is-open .mm-links a:nth-child(3){transition-delay:.2s}
+    .mobile-menu.is-open .mm-links a:nth-child(4){transition-delay:.26s}
+    .mobile-menu.is-open .mm-links a:nth-child(5){transition-delay:.32s}
+    .mm-foot{margin-top:auto;display:flex;flex-wrap:wrap;gap:12px;align-items:center;justify-content:space-between;opacity:0;transform:translateY(16px);transition:opacity .5s var(--ease) .38s,transform .5s var(--ease) .38s}
+    .mobile-menu.is-open .mm-foot{opacity:1;transform:none}
+    .mm-foot .btn{flex:1;min-width:200px}
+    .mm-contact{display:flex;gap:10px}
+    .mm-contact a{width:48px;height:48px;display:grid;place-items:center;border-radius:50%;border:1px solid var(--line-strong);color:var(--white);transition:border-color .3s,color .3s}
+    .mm-contact a:hover{border-color:var(--lav);color:var(--lav)}
+    @media (min-width:960px){
+      .nav-links{display:flex}
+      .nav-cta{display:inline-flex}
+      .nav-burger,.mobile-menu{display:none}
+    }
+
+    /* ---------- 06. Hero ---------- */
+    .hero{position:relative;overflow:clip;padding-top:calc(var(--nav-h) + clamp(24px,4vh,64px));padding-bottom:clamp(24px,3.5vh,48px);min-height:100svh;display:flex;align-items:center}
+    .hero::before{
+      content:"";position:absolute;inset:0;pointer-events:none;
+      background:
+        radial-gradient(52% 46% at 80% 24%,rgba(31,47,163,.42),transparent 70%),
+        radial-gradient(46% 42% at 8% 80%,rgba(106,47,208,.26),transparent 72%),
+        radial-gradient(34% 30% at 34% 8%,rgba(185,166,245,.1),transparent 70%),
+        radial-gradient(40% 34% at 55% 118%,rgba(106,47,208,.16),transparent 72%);
+    }
+    .hero-grid{position:relative;display:grid;gap:clamp(40px,5vw,64px);align-items:center;width:100%}
+    .hero-title{font-size:clamp(2.3rem,4.9vw,4.7rem);line-height:1.04;letter-spacing:-.03em;max-width:16ch}
+    .hero-sub{margin-top:clamp(16px,2.6vh,24px);max-width:48ch;color:#B7B5CB;font-size:clamp(.98rem,1.15vw,1.08rem);line-height:1.7}
+    .hero-cta{margin-top:clamp(22px,3.4vh,36px);display:flex;flex-wrap:wrap;gap:14px}
+    .hero-cta .btn-primary svg{transition:transform .4s var(--ease)}
+    .hero-cta .btn-primary:hover svg{transform:translateX(4px)}
+    .hero-note{margin-top:clamp(16px,2.4vh,26px);display:flex;align-items:center;gap:12px;font-size:13px;font-weight:500;color:#A9A7BE}
+    .note-ic{width:24px;height:24px;border-radius:50%;border:1px solid rgba(185,166,245,.45);display:grid;place-items:center;color:var(--lav);flex:none}
+    /* staged entrance for text bits (runs once, after preloader clears) */
+    html.js .fade-seq{opacity:0;transform:translateY(22px);animation:fadeUp .9s var(--ease) forwards;animation-delay:calc(1.05s + var(--d,0s))}
+    html.js .hero-title .w{display:inline-block;overflow:hidden;vertical-align:bottom;padding:.08em 0 .12em;margin:-.08em 0 -.12em}
+    html.js .hero-title .w>span{display:inline-block;transform:translateY(115%);animation:wordRise .85s var(--ease) forwards;animation-delay:calc(1.02s + var(--i)*.045s)}
+    @keyframes wordRise{to{transform:translateY(0)}}
+    @keyframes fadeUp{to{opacity:1;transform:none}}
+    /* avatar stage */
+    .hero-visual{position:relative}
+    .avatar-stage{position:relative;width:min(440px,84vw,54vh);width:min(440px,84vw,54svh);aspect-ratio:1;margin-inline:auto}
+    .stage-par{position:absolute;inset:0;will-change:transform}
+    .stage-halo{
+      position:absolute;inset:6%;border-radius:50%;pointer-events:none;
+      background:radial-gradient(circle,rgba(106,47,208,.38) 0%,rgba(31,47,163,.2) 52%,transparent 74%);
+      filter:blur(34px);
+    }
+    .stage-ring{
+      position:absolute;inset:-3.5%;border-radius:50%;
+      background:conic-gradient(from 90deg,rgba(185,166,245,0) 0deg,rgba(185,166,245,.85) 65deg,rgba(106,47,208,.55) 150deg,rgba(242,199,217,.45) 215deg,rgba(185,166,245,0) 305deg);
+      -webkit-mask:radial-gradient(farthest-side,transparent calc(100% - 3px),#000 calc(100% - 2px));
+      mask:radial-gradient(farthest-side,transparent calc(100% - 3px),#000 calc(100% - 2px));
+      animation:spin 24s linear infinite;
+    }
+    .stage-orbit{position:absolute;inset:-14%;animation:spin 46s linear infinite;pointer-events:none}
+    .stage-orbit svg{width:100%;height:100%;display:block;overflow:visible}
+    .orbit-text{font-family:var(--font-b);font-size:3.6px;font-weight:600;letter-spacing:4px;fill:rgba(185,166,245,.55)}
+    @keyframes spin{to{transform:rotate(360deg)}}
+    .avatar-frame{
+      position:absolute;inset:6%;border-radius:50%;overflow:hidden;
+      border:3px solid rgba(247,246,251,.95);
+      box-shadow:0 44px 110px -30px rgba(22,32,122,.65),0 0 0 12px rgba(247,246,251,.045);
+      will-change:transform;
+    }
+    .avatar-frame img{width:100%;height:100%;object-fit:cover}
+    .orb{position:absolute;pointer-events:none;will-change:transform}
+    .orb i{display:block;width:100%;height:100%;border-radius:50%;filter:blur(58px);opacity:.5}
+    .orb.o1{width:46%;height:46%;top:-10%;right:-14%}
+    .orb.o1 i{background:radial-gradient(circle at 35% 35%,#6A2FD0,#1F2FA3 70%)}
+    .orb.o2{width:36%;height:36%;bottom:0;left:-17%}
+    .orb.o2 i{background:radial-gradient(circle at 40% 40%,#B9A6F5,#6A2FD0 75%)}
+    .orb.o3{width:24%;height:24%;bottom:-9%;right:4%}
+    .orb.o3 i{background:radial-gradient(circle at 40% 40%,#F2C7D9,rgba(242,199,217,0) 75%);opacity:.38}
+    /* floating glass stat chips — quiet, precise, editorial */
+    .chip-p{position:absolute;z-index:3;will-change:transform}
+    .chip{
+      display:flex;align-items:center;gap:9px;padding:10px 15px;border-radius:14px;
+      background:rgba(14,14,23,.68);border:1px solid rgba(247,246,251,.1);
+      -webkit-backdrop-filter:blur(16px);backdrop-filter:blur(16px);
+      box-shadow:0 16px 36px -18px rgba(5,5,15,.75);
+      font-size:12px;font-weight:600;letter-spacing:.01em;color:#A9A7BE;white-space:nowrap;
+      animation:bob 5.2s ease-in-out infinite alternate;
+    }
+    .chip strong{color:var(--white);font-weight:700}
+    .chip svg{color:var(--lav);flex:none}
+    .chip.c1{animation-delay:-1.2s}
+    .chip.c2{animation-delay:-3s}
+    .chip.c3{animation-delay:-4.2s}
+    @keyframes bob{from{transform:translateY(-5px)}to{transform:translateY(6px)}}
+    .cp1{top:5%;right:-5%}
+    .cp2{bottom:17%;left:-8%}
+    .cp3{bottom:-3%;right:4%}
+    .scroll-hint{
+      position:absolute;left:50%;bottom:26px;transform:translateX(-50%);
+      display:flex;flex-direction:column;align-items:center;gap:10px;
+      font-size:10.5px;font-weight:800;letter-spacing:.3em;text-transform:uppercase;color:var(--muted);
+    }
+    .scroll-hint .sh-line{width:1px;height:44px;background:rgba(247,246,251,.14);position:relative;overflow:hidden}
+    .scroll-hint .sh-line::after{content:"";position:absolute;left:0;top:-40%;width:100%;height:40%;background:var(--lav);animation:shDrop 2s var(--ease) infinite}
+    @keyframes shDrop{0%{top:-40%}60%,100%{top:110%}}
+    @media (max-width:900px){
+      .avatar-stage{width:min(380px,80vw,48svh)}
+    }
+    @media (max-width:700px){
+      .hero-grid{gap:32px}
+      .hero-note{display:none}
+      .avatar-stage{width:min(260px,64vw,54svh)}
+      .stage-orbit{inset:-6%}
+      .orbit-text{font-size:5px}
+      .chip{padding:8px 12px;font-size:11px;gap:8px}
+      .cp1{right:-2%}
+      .cp2{left:-3%;bottom:18%}
+    }
+    @media (max-width:520px){
+      .scroll-hint{display:none}
+      .avatar-stage{width:min(230px,58vw,54svh)}
+    }
+    @media (min-width:1000px){
+      .hero-grid{grid-template-columns:1.08fr .92fr}
+      .hero-title{max-width:17ch}
+    }
+
+    /* platforms marquee */
+    .marquee{position:relative;border-block:1px solid var(--line);padding-block:26px;overflow:clip;background:rgba(247,246,251,.015)}
+    .marquee-track{display:flex;width:max-content;animation:marquee 32s linear infinite}
+    .marquee:hover .marquee-track{animation-play-state:paused}
+    .marquee-group{display:flex;align-items:center;flex:none}
+    .mq-item{display:flex;align-items:center;gap:12px;margin-right:clamp(44px,6vw,76px);color:rgba(247,246,251,.5);transition:color .3s}
+    .mq-item:hover{color:rgba(247,246,251,.95)}
+    .mq-item svg{width:21px;height:21px;flex:none}
+    .mq-item span{font-size:13px;font-weight:700;letter-spacing:.18em;text-transform:uppercase;white-space:nowrap}
+    @keyframes marquee{to{transform:translateX(-50%)}}
+
+    /* ---------- 07. Services (bento) ---------- */
+    .svc-grid{display:grid;gap:18px}
+    .svc{
+      position:relative;display:flex;flex-direction:column;
+      padding:clamp(26px,3vw,36px);border-radius:var(--r-lg);
+      background:linear-gradient(180deg,rgba(247,246,251,.035),rgba(247,246,251,.012));
+      border:1px solid var(--line);
+      transition:transform .55s var(--ease),border-color .4s;
+      overflow:hidden;
+    }
+    .svc.in:hover{transform:translateY(-6px)}
+    /* gradient border on hover */
+    .svc::before{
+      content:"";position:absolute;inset:0;border-radius:inherit;padding:1.2px;
+      background:linear-gradient(135deg,rgba(185,166,245,.95),rgba(106,47,208,.6) 45%,rgba(31,47,163,.8));
+      -webkit-mask:linear-gradient(#000 0 0) content-box,linear-gradient(#000 0 0);
+      -webkit-mask-composite:xor;
+      mask:linear-gradient(#000 0 0) content-box,linear-gradient(#000 0 0);
+      mask-composite:exclude;
+      opacity:0;transition:opacity .5s var(--ease);pointer-events:none;
+    }
+    .svc:hover::before{opacity:1}
+    /* cursor spotlight */
+    .svc::after{
+      content:"";position:absolute;inset:0;pointer-events:none;opacity:0;transition:opacity .45s;
+      background:radial-gradient(340px circle at var(--mx,50%) var(--my,50%),rgba(185,166,245,.13),transparent 62%);
+    }
+    .svc:hover::after{opacity:1}
+    .svc-water{
+      position:absolute;right:-8px;bottom:-34px;font-family:var(--font-d);font-weight:800;font-size:150px;line-height:1;
+      color:transparent;-webkit-text-stroke:1px rgba(247,246,251,.07);pointer-events:none;user-select:none;
+    }
+    .svc-top{display:flex;align-items:flex-start;justify-content:space-between;gap:16px;margin-bottom:22px}
+    .svc-icon{
+      position:relative;width:58px;height:58px;flex:none;border-radius:50%;padding:2px;
+      background:linear-gradient(140deg,rgba(201,187,248,.75),rgba(106,47,208,.4) 55%,rgba(242,199,217,.5));
+      box-shadow:0 4px 16px -6px rgba(10,10,25,.7),0 0 20px -6px rgba(106,47,208,.35);
+    }
+    .svc-icon img{width:100%;height:100%;border-radius:50%;object-fit:cover;display:block}
+    .svc-icon .ear{top:-3px;width:10px;height:10px}
+    .svc-icon .ear.l{left:5px}
+    .svc-icon .ear.r{right:5px}
+    .svc-num{font-family:var(--font-d);font-weight:800;font-size:15px;letter-spacing:.08em;color:transparent;-webkit-text-stroke:1px rgba(247,246,251,.35);padding-top:6px}
+    .svc h3{font-size:clamp(1.28rem,1.8vw,1.55rem)}
+    .svc-tag{margin-top:8px;color:var(--lav);font-size:14.5px;font-weight:600;letter-spacing:.01em}
+    .svc-list{margin-top:20px;display:grid;gap:10px}
+    .svc-list li{display:flex;align-items:flex-start;gap:10px;font-size:14.5px;color:var(--muted);line-height:1.5}
+    .svc-list svg{flex:none;margin-top:3px;color:var(--purple)}
+    .svc-more{display:none}
+    /* accordion behaviour on phones */
+    @media (max-width:767px){
+      .svc-list{grid-template-rows:1fr;transition:grid-template-rows .5s var(--ease)}
+      .svc:not(.is-open) .svc-list{grid-template-rows:0fr}
+      .svc-list li{overflow:hidden;min-height:0}
+      .svc:not(.is-open) .svc-list li{padding-block:0;opacity:0}
+      .svc-more{
+        display:inline-flex;align-items:center;gap:8px;margin-top:18px;align-self:flex-start;
+        font-size:13.5px;font-weight:700;color:var(--lav);padding:10px 2px;min-height:44px;
+      }
+      .svc-more svg{transition:transform .4s var(--ease)}
+      .svc.is-open .svc-more svg{transform:rotate(180deg)}
+    }
+    @media (min-width:640px){ .svc-list{grid-template-columns:1fr 1fr;column-gap:26px} }
+    @media (min-width:640px) and (max-width:999px){ .svc--5 .svc-list{grid-template-columns:1fr} }
+    @media (min-width:640px) and (max-width:999px){
+      .svc-grid{grid-template-columns:1fr 1fr}
+      .svc--1,.svc--5{grid-column:span 2}
+    }
+    @media (min-width:1000px){
+      .svc-grid{grid-template-columns:repeat(12,1fr)}
+      .svc--1{grid-column:span 5;grid-row:span 2}
+      .svc--2{grid-column:span 7}
+      .svc--3{grid-column:span 7}
+      .svc--4{grid-column:span 7}
+      .svc--5{grid-column:span 5;grid-row:span 2}
+      .svc--1 .svc-list,.svc--5 .svc-list{grid-template-columns:1fr}
+    }
+
+    /* ---------- 08. Process ---------- */
+    .steps{position:relative;display:grid;gap:34px;counter-reset:step}
+    .steps-line{position:absolute;display:none}
+    .step{position:relative;padding-left:76px}
+    .step-dot{
+      position:absolute;left:0;top:0;width:52px;height:52px;border-radius:50%;
+      display:grid;place-items:center;background:var(--white);border:1.5px solid rgba(10,10,15,.2);
+      font-family:var(--font-d);font-weight:800;font-size:15px;color:var(--ink);
+    }
+    .step-dot::before,.step-dot::after{content:"";position:absolute;top:-4px;width:11px;height:11px;border-radius:50%;background:var(--ink)}
+    .step-dot::before{left:8px}
+    .step-dot::after{right:8px}
+    .step h3{font-size:1.22rem}
+    .step p{margin-top:8px;color:var(--muted-ink);font-size:15px;max-width:34ch}
+    @media (min-width:1000px){
+      .steps{grid-template-columns:repeat(4,1fr);gap:clamp(24px,3vw,40px);padding-top:10px}
+      .steps-line{display:block;left:26px;right:calc(12.5% - 0px);top:36px;height:2px;background:rgba(10,10,15,.1)}
+      .steps-fill{display:block;width:100%;height:100%;background:var(--grad);transform:scaleX(0);transform-origin:left}
+      .step{padding-left:0;padding-top:86px}
+      .step-dot{top:10px}
+      .step p{max-width:none;padding-right:12px}
+    }
+    @media (max-width:999px){
+      .steps{padding:6px 0}
+      .steps-line{display:block;left:25px;top:8px;bottom:8px;width:2px;background:rgba(10,10,15,.1)}
+      .steps-fill{display:block;width:100%;height:100%;background:var(--grad);transform:scaleY(0);transform-origin:top}
+    }
+
+    /* ---------- 09. Results / case study ---------- */
+    .results{overflow:clip}
+    .results::before{
+      content:"";position:absolute;inset:0;pointer-events:none;
+      background:
+        radial-gradient(46% 40% at 82% 8%,rgba(31,47,163,.4),transparent 70%),
+        radial-gradient(40% 38% at 8% 92%,rgba(106,47,208,.3),transparent 72%);
+    }
+    .results .container{position:relative}
+    .case-card{
+      position:relative;border-radius:var(--r-xl);padding:clamp(28px,4vw,52px);
+      background:linear-gradient(160deg,rgba(25,25,40,.85),rgba(15,15,24,.9));
+      border:1px solid var(--line);
+      box-shadow:0 40px 110px -40px rgba(31,47,163,.5);
+      display:grid;gap:clamp(32px,4vw,56px);
+    }
+    .case-grid{display:grid;gap:clamp(30px,4vw,52px);align-items:center}
+    .case-label{font-size:11px;font-weight:800;letter-spacing:.24em;text-transform:uppercase;color:var(--lav)}
+    .case-client{font-family:var(--font-d);font-weight:800;font-size:clamp(1.7rem,3vw,2.4rem);letter-spacing:-.02em;margin-top:10px}
+    .case-service{margin-top:14px;display:inline-flex;align-items:center;gap:10px;padding:9px 16px;border-radius:99px;border:1px solid rgba(185,166,245,.3);background:rgba(185,166,245,.08);font-size:13.5px;font-weight:600;color:#D8CEFA}
+    .case-sum{margin-top:22px;color:var(--muted);max-width:48ch}
+    .dash-pill{display:inline-flex;align-items:center;gap:7px;font-size:12px;font-weight:700;color:#8FF0C0;background:rgba(143,240,192,.09);border:1px solid rgba(143,240,192,.22);padding:6px 12px;border-radius:99px}
+    .dash-pill i{width:6px;height:6px;border-radius:50%;background:#8FF0C0}
+    .case-photo{
+      position:relative;border-radius:var(--r-lg);overflow:hidden;border:1px solid var(--line);
+      aspect-ratio:16/10;box-shadow:0 30px 80px -30px rgba(22,32,122,.6);
+      background:linear-gradient(140deg,#1F2FA3,#6A2FD0);
+    }
+    .case-photo img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
+    .case-photo::after{content:"";position:absolute;inset:0;background:linear-gradient(185deg,rgba(10,10,18,0) 42%,rgba(10,10,18,.82))}
+    .case-photo-badge{position:absolute;left:16px;right:16px;bottom:14px;z-index:2;display:flex;align-items:center;justify-content:space-between;gap:12px;flex-wrap:wrap}
+    .case-photo-stat{
+      display:inline-flex;align-items:baseline;gap:8px;padding:10px 16px;border-radius:14px;
+      background:rgba(14,14,23,.66);border:1px solid rgba(247,246,251,.16);
+      -webkit-backdrop-filter:blur(14px);backdrop-filter:blur(14px);
+      font-size:12.5px;font-weight:600;color:var(--muted);
+    }
+    .case-photo-stat strong{font-family:var(--font-d);font-weight:800;font-size:16px;color:var(--white)}
+    .stats{display:grid;gap:26px;grid-template-columns:1fr;border-top:1px solid var(--line);padding-top:clamp(28px,4vw,44px)}
+    .stat-value{
+      font-family:var(--font-d);font-weight:800;font-size:clamp(2.4rem,5vw,3.7rem);line-height:1;letter-spacing:-.02em;
+      background:var(--grad-text);-webkit-background-clip:text;background-clip:text;color:transparent;
+    }
+    .stat-label{margin-top:10px;font-size:14px;font-weight:600;color:var(--muted)}
+    @media (min-width:700px){.stats{grid-template-columns:repeat(3,1fr)}}
+    @media (min-width:980px){.case-grid{grid-template-columns:1fr 1.05fr}}
+
+    /* ---------- 10. Why work with me ---------- */
+    .why-grid{display:grid;gap:18px;grid-template-columns:1fr}
+    .tile{position:relative;border-radius:var(--r-lg);padding:clamp(26px,3vw,34px);transition:transform .5s var(--ease)}
+    .tile.in:hover{transform:translateY(-6px)}
+    .tile-icon{
+      position:relative;width:56px;height:56px;border-radius:50%;padding:2px;margin-bottom:22px;
+      background:linear-gradient(140deg,rgba(201,187,248,.75),rgba(106,47,208,.4) 55%,rgba(242,199,217,.5));
+      box-shadow:0 4px 16px -6px rgba(10,10,25,.55),0 0 20px -6px rgba(106,47,208,.35);
+    }
+    .tile-icon img{width:100%;height:100%;border-radius:50%;object-fit:cover;display:block}
+    .tile--dark{background:var(--surface);border:1px solid var(--line)}
+    .tile--dark .tile-icon .ear{background:var(--lav);top:-3px;width:10px;height:10px}
+    .tile--dark p{color:var(--muted)}
+    .tile--light{background:var(--white);color:var(--ink);border:1px solid rgba(247,246,251,.06)}
+    .tile--light .tile-icon .ear{background:var(--purple);top:-3px;width:10px;height:10px}
+    .tile--light p{color:var(--muted-ink)}
+    .tile-icon .ear.l{left:5px}
+    .tile-icon .ear.r{right:5px}
+    .tile h3{font-size:1.16rem;line-height:1.25}
+    .tile p{margin-top:10px;font-size:14.5px;line-height:1.65}
+    @media (min-width:640px){.why-grid{grid-template-columns:1fr 1fr}}
+    @media (min-width:1000px){.why-grid{grid-template-columns:repeat(3,1fr)}}
+
+    /* ---------- 11. CTA banner ---------- */
+    .cta-panel{
+      position:relative;margin-top:86px;border-radius:var(--r-xl);
+      background:
+        radial-gradient(70% 120% at 85% -10%,rgba(185,166,245,.4),transparent 55%),
+        radial-gradient(60% 120% at 8% 115%,rgba(10,10,40,.55),transparent 60%),
+        var(--grad);
+      padding:clamp(84px,9vw,104px) clamp(24px,5vw,64px) clamp(44px,5vw,60px);
+      text-align:center;overflow:visible;
+      box-shadow:0 40px 110px -38px rgba(80,44,190,.75);
+    }
+    .cta-panda{
+      position:absolute;top:-62px;left:50%;transform:translateX(-50%);
+      width:118px;height:118px;border-radius:50%;overflow:hidden;
+      border:4px solid var(--white);
+      box-shadow:0 22px 55px -18px rgba(5,5,15,.7);
+      background:var(--blue-deep);
+    }
+    .cta-panda img{width:100%;height:100%;object-fit:cover}
+    .cta-panel h2{color:#fff;max-width:16ch;margin-inline:auto}
+    .cta-copy{margin:18px auto 0;max-width:52ch;color:rgba(255,255,255,.88);font-size:clamp(1rem,1.3vw,1.12rem)}
+    .cta-panel .btn{margin-top:34px}
+
+    /* ---------- 12. Contact ---------- */
+    .contact-grid{display:grid;gap:clamp(44px,6vw,72px)}
+    .contact-copy p{margin-top:18px;color:var(--muted);max-width:46ch}
+    .contact-cards{margin-top:34px;display:grid;gap:14px}
+    .ccard{
+      display:flex;align-items:center;gap:16px;padding:18px 20px;border-radius:var(--r-md);
+      background:linear-gradient(180deg,rgba(247,246,251,.04),rgba(247,246,251,.015));
+      border:1px solid var(--line);transition:border-color .35s,transform .45s var(--ease);
+    }
+    .ccard:hover{border-color:rgba(185,166,245,.4);transform:translateY(-3px)}
+    .ccard-icon{position:relative;width:50px;height:50px;flex:none;border-radius:50%;display:grid;place-items:center;background:var(--surface-2);border:1px solid var(--line-strong);color:var(--lav)}
+    .ccard-icon .ear{top:-3px;width:9px;height:9px}
+    .ccard-icon .ear.l{left:4px}
+    .ccard-icon .ear.r{right:4px}
+    .ccard-body{min-width:0;flex:1}
+    .ccard-body small{display:block;font-size:11.5px;font-weight:800;letter-spacing:.18em;text-transform:uppercase;color:var(--muted)}
+    .ccard-body strong{display:block;font-size:15.5px;font-weight:700;margin-top:3px;overflow-wrap:anywhere}
+    .ccard-copy{width:44px;height:44px;flex:none;display:grid;place-items:center;border-radius:50%;border:1px solid var(--line-strong);color:var(--muted);transition:color .3s,border-color .3s}
+    .ccard-copy:hover{color:var(--lav);border-color:var(--lav)}
+    .contact-note{margin-top:22px;display:flex;align-items:center;gap:10px;font-size:13.5px;color:var(--muted)}
+    .contact-note i{width:8px;height:8px;border-radius:50%;background:#8FF0C0;box-shadow:0 0 0 4px rgba(143,240,192,.15);flex:none}
+    /* form */
+    .form-card{
+      position:relative;border-radius:var(--r-xl);padding:clamp(26px,3.4vw,44px);
+      background:linear-gradient(180deg,rgba(247,246,251,.045),rgba(247,246,251,.015));
+      border:1px solid var(--line);
+    }
+    .form-row{display:grid;gap:18px}
+    @media (min-width:640px){.form-row{grid-template-columns:1fr 1fr}}
+    .field{position:relative;margin-top:18px}
+    .field:first-child{margin-top:0}
+    .field input,.field select,.field textarea{
+      width:100%;background:rgba(10,10,18,.55);border:1px solid var(--line-strong);border-radius:14px;
+      color:var(--white);font-size:15px;line-height:1.5;
+      padding:24px 18px 10px;transition:border-color .3s,box-shadow .3s;
+    }
+    .field textarea{min-height:132px;resize:vertical;padding-top:26px}
+    .field select{appearance:none;-webkit-appearance:none;cursor:pointer;padding:18px 44px 18px 18px;
+      background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='14' height='14' viewBox='0 0 24 24' fill='none' stroke='%23B9A6F5' stroke-width='2.5' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M6 9l6 6 6-6'/%3E%3C/svg%3E");
+      background-repeat:no-repeat;background-position:right 18px center;
+    }
+    .field select option{background:var(--surface);color:var(--white)}
+    .field input:focus,.field select:focus,.field textarea:focus{outline:none;border-color:rgba(185,166,245,.7);box-shadow:0 0 0 4px rgba(185,166,245,.14)}
+    .field label{position:absolute;left:18px;top:17px;font-size:14.5px;color:var(--muted);pointer-events:none;transition:all .25s var(--ease);max-width:calc(100% - 32px);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+    .field input:focus+label,.field input:not(:placeholder-shown)+label,
+    .field textarea:focus+label,.field textarea:not(:placeholder-shown)+label{top:8px;font-size:10.5px;font-weight:800;letter-spacing:.14em;text-transform:uppercase;color:var(--lav)}
+    .field--select label{top:9px;font-size:10.5px;font-weight:800;letter-spacing:.14em;text-transform:uppercase;color:var(--lav)}
+    .field-err{display:none;margin-top:7px;font-size:12.5px;font-weight:600;color:#FF8FA8}
+    .field.is-invalid input,.field.is-invalid select,.field.is-invalid textarea{border-color:rgba(255,110,140,.65)}
+    .field.is-invalid .field-err{display:block}
+    .form-foot{margin-top:26px;display:flex;flex-wrap:wrap;align-items:center;gap:16px}
+    .form-hint{font-size:12.5px;color:var(--muted);max-width:30ch;line-height:1.5}
+    .form-success{position:absolute;inset:0;border-radius:inherit;display:none;flex-direction:column;align-items:center;justify-content:center;gap:8px;text-align:center;padding:32px;background:linear-gradient(180deg,rgba(25,25,40,.97),rgba(15,15,24,.98))}
+    .form-success.is-visible{display:flex}
+    .form-success .ok{width:74px;height:74px;border-radius:50%;display:grid;place-items:center;background:rgba(143,240,192,.1);border:1px solid rgba(143,240,192,.35);color:#8FF0C0;margin-bottom:14px}
+    .form-success h3{font-size:1.4rem}
+    .form-success p{color:var(--muted);max-width:38ch;margin-top:6px}
+    .form-success .btn{margin-top:22px}
+    @media (min-width:1000px){.contact-grid{grid-template-columns:.92fr 1.08fr}}
+
+    /* footer */
+    .footer{background:var(--bg-black);border-top:1px solid var(--line);padding:clamp(56px,7vw,84px) 0 0}
+    .footer-grid{display:grid;gap:44px;grid-template-columns:1fr;padding-bottom:56px}
+    .f-brand p{margin-top:18px;color:var(--muted);max-width:34ch;font-size:14.5px}
+    .f-brand .brand{margin-bottom:2px}
+    .f-col h3{font-size:12px;font-weight:800;letter-spacing:.22em;text-transform:uppercase;color:var(--muted);font-family:var(--font-b);margin-bottom:18px}
+    .f-links{display:grid;gap:11px}
+    .f-links a{color:var(--muted);font-size:14.5px;transition:color .3s;width:fit-content}
+    .f-links a:hover{color:var(--white)}
+    .footer-bottom{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:18px;border-top:1px solid var(--line);padding-block:26px}
+    .footer-bottom p{font-size:13.5px;color:var(--muted)}
+    .to-top{
+      position:relative;width:50px;height:50px;border-radius:50%;background:var(--white);color:var(--ink);
+      display:grid;place-items:center;transition:transform .4s var(--ease);
+    }
+    .to-top::before,.to-top::after{content:"";position:absolute;top:-4px;width:10px;height:10px;border-radius:50%;background:var(--white);border:1.5px solid var(--bg-black)}
+    .to-top::before{left:9px}
+    .to-top::after{right:9px}
+    .to-top:hover{transform:translateY(-4px)}
+    @media (min-width:860px){.footer-grid{grid-template-columns:1.6fr 1fr 1fr}}
+
+    /* floating WhatsApp button */
+    .wa-float{
+      position:fixed;z-index:900;
+      right:calc(16px + env(safe-area-inset-right,0px));
+      bottom:calc(16px + env(safe-area-inset-bottom,0px));
+      width:56px;height:56px;border-radius:50%;display:grid;place-items:center;
+      background:var(--grad);color:#fff;
+      box-shadow:0 16px 38px -12px rgba(96,52,214,.7);
+      transition:transform .4s var(--ease);
+    }
+    .wa-float::before{content:"";position:absolute;inset:0;border-radius:50%;border:2px solid rgba(138,99,232,.65);animation:waPulse 2.4s var(--ease) infinite}
+    .wa-float:hover{transform:scale(1.08)}
+    @keyframes waPulse{0%{transform:scale(1);opacity:.9}70%,100%{transform:scale(1.65);opacity:0}}
+
+    /* toast */
+    .toast{
+      position:fixed;left:50%;bottom:calc(28px + env(safe-area-inset-bottom,0px));z-index:6000;
+      transform:translate(-50%,16px);opacity:0;pointer-events:none;
+      background:rgba(19,19,28,.92);border:1px solid var(--line-strong);border-radius:99px;
+      padding:11px 22px;font-size:13.5px;font-weight:700;color:var(--white);
+      -webkit-backdrop-filter:blur(12px);backdrop-filter:blur(12px);
+      transition:opacity .35s var(--ease),transform .35s var(--ease);
+      display:flex;align-items:center;gap:9px;
+    }
+    .toast svg{color:#8FF0C0}
+    .toast.is-visible{opacity:1;transform:translate(-50%,0)}
+
+    /* ---------- 13. Reveal system & reduced motion ---------- */
+    html.js [data-reveal]{opacity:0;transform:translateY(26px);transition:opacity .85s var(--ease) var(--d,0s),transform .85s var(--ease) var(--d,0s)}
+    html.js [data-reveal].in{opacity:1;transform:none}
+    @media (prefers-reduced-motion:reduce){
+      *,*::before,*::after{animation-duration:.01ms!important;animation-iteration-count:1!important;transition-duration:.01ms!important}
+      html.js [data-reveal],html.js .fade-seq{opacity:1;transform:none;animation:none}
+      html.js .hero-title .w>span{transform:none;animation:none}
+      .preloader{display:none}
+      .marquee-track{animation:none}
+      .stage-ring,.stage-ring2,.chip{animation:none}
+    }
+  </style>
+</head>
+<body>
+  <!-- ======================================================================
+       PANDA MASCOT
+       The site displays the brand mascot from the file "panda.jpeg" that sits
+       next to this HTML file. Replace that file (keeping the same name) to
+       swap the mascot everywhere. A built-in SVG fallback renders if the
+       file is missing, so the page never shows a broken image.
+       ====================================================================== -->
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <!-- Preloader -->
+  <div class="preloader" id="preloader" aria-hidden="true">
+    <div class="preloader-badge">
+      <svg viewBox="0 0 132 132" aria-hidden="true" focusable="false">
+        <defs>
+          <linearGradient id="preGrad" x1="0" y1="0" x2="1" y2="1">
+            <stop offset="0" stop-color="#1F2FA3"/><stop offset="1" stop-color="#B9A6F5"/>
+          </linearGradient>
+        </defs>
+        <circle class="ring-track" cx="66" cy="66" r="56"/>
+        <circle class="ring-draw" cx="66" cy="66" r="56"/>
+      </svg>
+      <span class="panda-frame"><img src="panda.jpeg" alt="" width="112" height="112" decoding="async"></span>
+    </div>
+  </div>
+
+  <!-- Custom cursor -->
+  <div class="cursor-dot" aria-hidden="true"></div>
+  <div class="cursor-ring" aria-hidden="true"></div>
+
+  <!-- Navigation -->
+  <header class="nav" id="nav">
+    <div class="container nav-inner">
+      <a class="brand" href="#home" aria-label="Haroon Rasool — home">
+        <span class="brand-logo panda-frame"><img src="panda.jpeg" alt="" width="42" height="42"></span>
+        <span class="brand-name">Haroon <em>Rasool</em></span>
+      </a>
+      <nav class="nav-links" aria-label="Primary">
+        <a href="about.html">About</a>
+        <a href="services.html">Services</a>
+        <a href="#results">Results</a>
+        <a href="#why">Why Me</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <a class="btn btn-primary btn-sm nav-cta magnetic" href="#contact">Free Consultation</a>
+      <button class="nav-burger" id="burger" aria-expanded="false" aria-controls="mobileMenu" aria-label="Open menu">
+        <span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- Mobile menu -->
+  <div class="mobile-menu" id="mobileMenu" aria-hidden="true">
+    <nav aria-label="Mobile">
+      <ul class="mm-links">
+        <li><a href="about.html"><small>01</small>About</a></li>
+        <li><a href="services.html"><small>02</small>Services</a></li>
+        <li><a href="#results"><small>03</small>Results</a></li>
+        <li><a href="#why"><small>04</small>Why Me</a></li>
+        <li><a href="#contact"><small>05</small>Contact</a></li>
+      </ul>
+    </nav>
+    <div class="mm-foot">
+      <a class="btn btn-primary" href="#contact">Free Consultation</a>
+      <div class="mm-contact">
+        <a href="https://wa.me/923281206398" target="_blank" rel="noopener" aria-label="Chat on WhatsApp">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M12 3a9 9 0 0 0-7.8 13.4L3 21l4.8-1.2A9 9 0 1 0 12 3z"/><path d="M9 8.6c0 3.4 3 6.4 6.4 6.4l1.1-1.7-2.1-1.3-1 .8c-1-.4-2-1.4-2.4-2.4l.8-1-1.3-2.1-1.5 1.3z" fill="currentColor" stroke="none"/></svg>
+        </a>
+        <a href="mailto:Haroonrasool289@gmail.com" aria-label="Send an email">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><rect x="3" y="5.5" width="18" height="13" rx="3"/><path d="M4 7.5l8 5.5 8-5.5"/></svg>
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <main id="main">
+    <!-- ============ HERO ============ -->
+    <section class="hero" id="home">
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <p class="eyebrow fade-seq" style="--d:.0s">Social Media Strategist &amp; Digital Marketer</p>
+          <h1 class="hero-title" style="margin-top:18px">
+            <span class="w"><span style="--i:0">Build</span></span>
+            <span class="w"><span style="--i:1">a</span></span>
+            <span class="w"><span style="--i:2">brand</span></span>
+            <span class="w"><span style="--i:3">people</span></span>
+            <span class="w"><span style="--i:4"><em class="accent">notice.</em></span></span><br>
+            <span class="w"><span style="--i:5">Grow</span></span>
+            <span class="w"><span style="--i:6">a</span></span>
+            <span class="w"><span style="--i:7">business</span></span>
+            <span class="w"><span style="--i:8">that</span></span>
+            <span class="w"><span style="--i:9"><em class="accent">sells.</em></span></span>
+          </h1>
+          <p class="hero-sub fade-seq" style="--d:.25s">I help businesses build a strong online presence, reach the right audience, generate quality leads, and increase sales through strategic social media marketing.</p>
+          <div class="hero-cta fade-seq" style="--d:.4s">
+            <a class="btn btn-primary magnetic" href="#contact">
+              Book a Free Consultation
+              <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+            </a>
+            <a class="btn btn-ghost" href="services.html">View Services</a>
+          </div>
+          <p class="hero-note fade-seq" style="--d:.55s">
+            <span class="note-ic" aria-hidden="true">
+              <svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M4 12.5l4.5 4.5L20 7.5"/></svg>
+            </span>
+            Free 30-minute strategy call — no obligations, no pressure.
+          </p>
+        </div>
+
+        <div class="hero-visual fade-seq" style="--d:.5s">
+          <div class="avatar-stage" id="avatarStage">
+            <div class="orb o1" data-depth="34" aria-hidden="true"><i></i></div>
+            <div class="orb o2" data-depth="24" aria-hidden="true"><i></i></div>
+            <div class="orb o3" data-depth="44" aria-hidden="true"><i></i></div>
+            <div class="stage-par" data-depth="12">
+              <span class="stage-halo" aria-hidden="true"></span>
+              <span class="stage-ring" aria-hidden="true"></span>
+              <div class="stage-orbit" aria-hidden="true">
+                <svg viewBox="0 0 200 200" focusable="false">
+                  <defs><path id="orbitPath" d="M100 12a88 88 0 1 1-.01 0" fill="none"/></defs>
+                  <text class="orbit-text"><textPath href="#orbitPath">SOCIAL MEDIA STRATEGIST • DIGITAL MARKETING • ORGANIC GROWTH • META ADS • UGC CREATOR • </textPath></text>
+                </svg>
+              </div>
+              <div class="avatar-frame">
+                <img src="panda.jpeg" alt="Haroon Rasool's panda brand mascot" width="640" height="640" fetchpriority="high" data-panda>
+              </div>
+            </div>
+            <div class="chip-p cp1" data-depth="30">
+              <div class="chip c1">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M5 20V13M12 20V5M19 20v-9"/></svg>
+                <span><strong>5.8K+</strong> Organic Views</span>
+              </div>
+            </div>
+            <div class="chip-p cp2" data-depth="22">
+              <div class="chip c2">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 17l5-5 4 4 7-8"/><path d="M15 8h5v5"/></svg>
+                <span>Organic <strong>+</strong> Paid Growth</span>
+              </div>
+            </div>
+            <div class="chip-p cp3" data-depth="38">
+              <div class="chip c3">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="12" cy="12" r="8.5"/><circle cx="12" cy="12" r="4"/><circle cx="12" cy="12" r="0.8" fill="currentColor"/></svg>
+                <span>Data-Driven <strong>Strategy</strong></span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <a class="scroll-hint fade-seq" style="--d:.8s" href="#about">
+        <span class="sh-line" aria-hidden="true"></span>
+        Scroll
+      </a>
+    </section>
+
+    <!-- ============ PLATFORMS MARQUEE ============ -->
+    <div class="marquee" aria-label="Platforms and formats I work with">
+      <div class="marquee-track">
+        <ul class="marquee-group">
+          <li class="mq-item">
+            <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M15.6 3.3h-2.5c-2.6 0-4.1 1.7-4.1 4.2v2.4H6.4v3.2H9v7.6h3.3v-7.6h2.7l.4-3.2h-3.1V7.7c0-.9.3-1.3 1.3-1.3h1.9l.1-3.1z"/></svg>
+            <span>Facebook</span>
+          </li>
+          <li class="mq-item">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5.5"/><circle cx="12" cy="12" r="4.2"/><circle cx="17.3" cy="6.7" r="1.2" fill="currentColor" stroke="none"/></svg>
+            <span>Instagram</span>
+          </li>
+          <li class="mq-item">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M8.8 8.3c-2.2 0-3.6 1.6-3.6 3.7s1.4 3.7 3.6 3.7c3.8 0 4.6-7.4 8.4-7.4 2.2 0 3.6 1.6 3.6 3.7s-1.4 3.7-3.6 3.7c-3.8 0-4.6-7.4-8.4-7.4z" transform="scale(0.82) translate(2.6 2.6)"/></svg>
+            <span>Meta Ads</span>
+          </li>
+          <li class="mq-item">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M12 3a9 9 0 0 0-7.8 13.4L3 21l4.8-1.2A9 9 0 1 0 12 3z"/><path d="M9 8.6c0 3.4 3 6.4 6.4 6.4l1.1-1.7-2.1-1.3-1 .8c-1-.4-2-1.4-2.4-2.4l.8-1-1.3-2.1-1.5 1.3z" fill="currentColor" stroke="none"/></svg>
+            <span>WhatsApp</span>
+          </li>
+          <li class="mq-item">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><rect x="2.5" y="6" width="19" height="12.5" rx="3.5"/><path d="M10.2 9.4l5 2.85-5 2.85z" fill="currentColor" stroke="none"/></svg>
+            <span>YouTube</span>
+          </li>
+          <li class="mq-item">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="3.5"/><circle cx="7.6" cy="7.8" r="1.3" fill="currentColor" stroke="none"/><path d="M7.6 11v6" stroke-width="2.4" stroke-linecap="round"/><path d="M12 17v-6M12 13.6c0-1.7 1.1-2.7 2.6-2.7s2.4 1 2.4 2.9V17" stroke-width="2.2" stroke-linecap="round"/></svg>
+            <span>LinkedIn</span>
+          </li>
+          <li class="mq-item">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" aria-hidden="true"><path d="M9.2 17.6V5.4L19 3.5v11.9"/><circle cx="6.6" cy="17.6" r="2.6"/><circle cx="16.4" cy="15.4" r="2.6"/></svg>
+            <span>Short-Form Video</span>
+          </li>
+          <li class="mq-item">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" aria-hidden="true"><circle cx="12" cy="8" r="3.4"/><path d="M5.5 19.5c.9-3.2 3.5-4.9 6.5-4.9s5.6 1.7 6.5 4.9"/></svg>
+            <span>UGC Content</span>
+          </li>
+        </ul>
+        <ul class="marquee-group" aria-hidden="true">
+          <li class="mq-item">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M15.6 3.3h-2.5c-2.6 0-4.1 1.7-4.1 4.2v2.4H6.4v3.2H9v7.6h3.3v-7.6h2.7l.4-3.2h-3.1V7.7c0-.9.3-1.3 1.3-1.3h1.9l.1-3.1z"/></svg>
+            <span>Facebook</span>
+          </li>
+          <li class="mq-item">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="3" y="3" width="18" height="18" rx="5.5"/><circle cx="12" cy="12" r="4.2"/><circle cx="17.3" cy="6.7" r="1.2" fill="currentColor" stroke="none"/></svg>
+            <span>Instagram</span>
+          </li>
+          <li class="mq-item">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M8.8 8.3c-2.2 0-3.6 1.6-3.6 3.7s1.4 3.7 3.6 3.7c3.8 0 4.6-7.4 8.4-7.4 2.2 0 3.6 1.6 3.6 3.7s-1.4 3.7-3.6 3.7c-3.8 0-4.6-7.4-8.4-7.4z" transform="scale(0.82) translate(2.6 2.6)"/></svg>
+            <span>Meta Ads</span>
+          </li>
+          <li class="mq-item">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M12 3a9 9 0 0 0-7.8 13.4L3 21l4.8-1.2A9 9 0 1 0 12 3z"/><path d="M9 8.6c0 3.4 3 6.4 6.4 6.4l1.1-1.7-2.1-1.3-1 .8c-1-.4-2-1.4-2.4-2.4l.8-1-1.3-2.1-1.5 1.3z" fill="currentColor" stroke="none"/></svg>
+            <span>WhatsApp</span>
+          </li>
+          <li class="mq-item">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="2.5" y="6" width="19" height="12.5" rx="3.5"/><path d="M10.2 9.4l5 2.85-5 2.85z" fill="currentColor" stroke="none"/></svg>
+            <span>YouTube</span>
+          </li>
+          <li class="mq-item">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><rect x="3" y="3" width="18" height="18" rx="3.5"/><circle cx="7.6" cy="7.8" r="1.3" fill="currentColor" stroke="none"/><path d="M7.6 11v6" stroke-width="2.4" stroke-linecap="round"/><path d="M12 17v-6M12 13.6c0-1.7 1.1-2.7 2.6-2.7s2.4 1 2.4 2.9V17" stroke-width="2.2" stroke-linecap="round"/></svg>
+            <span>LinkedIn</span>
+          </li>
+          <li class="mq-item">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round"><path d="M9.2 17.6V5.4L19 3.5v11.9"/><circle cx="6.6" cy="17.6" r="2.6"/><circle cx="16.4" cy="15.4" r="2.6"/></svg>
+            <span>Short-Form Video</span>
+          </li>
+          <li class="mq-item">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round"><circle cx="12" cy="8" r="3.4"/><path d="M5.5 19.5c.9-3.2 3.5-4.9 6.5-4.9s5.6 1.7 6.5 4.9"/></svg>
+            <span>UGC Content</span>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- ============ ABOUT ============ -->
+    <section class="section light" id="about">
+      <div class="container" style="display:grid;gap:clamp(48px,6vw,84px);align-items:center">
+        <div class="about-visual" data-reveal style="position:relative;width:min(360px,78vw);margin-inline:auto">
+          <span aria-hidden="true" style="position:absolute;inset:-9%;border-radius:50%;border:1.5px dashed rgba(106,47,208,.3);animation:spin 50s linear infinite"></span>
+          <span aria-hidden="true" style="position:absolute;width:46%;height:46%;top:-14%;right:-14%;border-radius:50%;background:radial-gradient(circle at 40% 40%,rgba(185,166,245,.55),rgba(185,166,245,0) 70%);filter:blur(30px)"></span>
+          <div class="panda-frame" style="aspect-ratio:1;border:4px solid var(--ink);box-shadow:0 30px 80px -30px rgba(22,32,122,.45)">
+            <img src="panda.jpeg" alt="Haroon Rasool's panda brand mascot" width="512" height="512" loading="lazy" decoding="async" data-panda>
+          </div>
+          <span class="ear" aria-hidden="true" style="top:-5px;left:14%;width:13px;height:13px;background:var(--purple)"></span>
+          <span class="ear" aria-hidden="true" style="top:-5px;right:14%;width:13px;height:13px;background:var(--purple)"></span>
+        </div>
+        <div class="about-copy">
+          <p class="eyebrow" data-reveal>About me</p>
+          <h2 data-reveal style="--d:.08s">Hi, I'm <span class="accent">Haroon Rasool.</span></h2>
+          <p class="head-sub" data-reveal style="--d:.16s">I'm a Social Media Strategist and Digital Marketing Professional. I focus on real business outcomes, not just likes and followers.</p>
+          <p data-reveal style="--d:.22s;color:var(--muted-ink);margin-top:16px;max-width:56ch">My goal is to generate meaningful results: quality leads, customer inquiries, website traffic, product sales, audience growth, and better brand visibility.</p>
+          <ul class="pills" data-reveal style="--d:.3s;margin-top:30px;display:flex;flex-wrap:wrap;gap:10px">
+            <li class="pill" style="padding:9px 18px;border-radius:99px;border:1px solid rgba(10,10,15,.18);font-size:13.5px;font-weight:700">Quality Leads</li>
+            <li class="pill" style="padding:9px 18px;border-radius:99px;border:1px solid rgba(10,10,15,.18);font-size:13.5px;font-weight:700">Customer Inquiries</li>
+            <li class="pill" style="padding:9px 18px;border-radius:99px;border:1px solid rgba(10,10,15,.18);font-size:13.5px;font-weight:700">Website Traffic</li>
+            <li class="pill" style="padding:9px 18px;border-radius:99px;border:1px solid rgba(10,10,15,.18);font-size:13.5px;font-weight:700">Product Sales</li>
+            <li class="pill" style="padding:9px 18px;border-radius:99px;border:1px solid rgba(10,10,15,.18);font-size:13.5px;font-weight:700">Audience Growth</li>
+            <li class="pill" style="padding:9px 18px;border-radius:99px;border:1px solid rgba(10,10,15,.18);font-size:13.5px;font-weight:700">Brand Visibility</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ SERVICES ============ -->
+    <section class="section" id="services">
+      <div class="container">
+        <div class="section-head">
+          <p class="eyebrow" data-reveal>Services</p>
+          <h2 data-reveal style="--d:.08s">Services built for <span class="accent">growth.</span></h2>
+          <p class="head-sub" data-reveal style="--d:.16s">Five focused services, one goal: turning attention into revenue for your business.</p>
+        </div>
+
+        <div class="svc-grid">
+          <!-- 01 -->
+          <article class="svc svc--1 spotlight" data-reveal>
+            <span class="svc-water" aria-hidden="true">01</span>
+            <div class="svc-top">
+              <div class="svc-icon">
+                <span class="ear l" aria-hidden="true"></span><span class="ear r" aria-hidden="true"></span>
+                <img src="https://images.unsplash.com/photo-1432888622747-4eb9a8efeb07?auto=format&fit=crop&w=200&h=200&q=60" alt="" width="58" height="58" loading="lazy" onerror="this.style.display='none'">
+              </div>
+              <span class="svc-num">01</span>
+            </div>
+            <h3>Organic Social Media Growth</h3>
+            <p class="svc-tag">Grow a loyal audience without paying for every click.</p>
+            <ul class="svc-list">
+              <li><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 12.5l4.5 4.5L20 7.5"/></svg>Facebook &amp; Instagram management</li>
+              <li><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 12.5l4.5 4.5L20 7.5"/></svg>Content strategy and planning</li>
+              <li><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 12.5l4.5 4.5L20 7.5"/></svg>Reels and post ideas</li>
+              <li><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 12.5l4.5 4.5L20 7.5"/></svg>Organic audience growth</li>
+              <li><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 12.5l4.5 4.5L20 7.5"/></svg>Community management</li>
+              <li><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 12.5l4.5 4.5L20 7.5"/></svg>Engagement and brand awareness</li>
+              <li><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 12.5l4.5 4.5L20 7.5"/></svg>Organic lead generation</li>
+              <li><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 12.5l4.5 4.5L20 7.5"/></svg>Performance reporting</li>
+            </ul>
+            <button class="svc-more" type="button" aria-expanded="false">View all features
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 9l6 6 6-6"/></svg>
+            </button>
+          </article>
+
+          <!-- 02 -->
+          <article class="svc svc--2 spotlight" data-reveal style="--d:.08s">
+            <span class="svc-water" aria-hidden="true">02</span>
+            <div class="svc-top">
+              <div class="svc-icon">
+                <span class="ear l" aria-hidden="true"></span><span class="ear r" aria-hidden="true"></span>
+                <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=200&h=200&q=60" alt="" width="58" height="58" loading="lazy" onerror="this.style.display='none'">
+              </div>
+              <span class="svc-num">02</span>
+            </div>
+            <h3>Meta Ads &amp; Paid Growth</h3>
+            <p class="svc-tag">Precision-targeted campaigns that turn spend into sales.</p>
+            <ul class="svc-list">
+              <li><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 12.5l4.5 4.5L20 7.5"/></svg>Facebook &amp; Instagram Ads</li>
+              <li><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 12.5l4.5 4.5L20 7.5"/></svg>Lead generation campaigns</li>
+              <li><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 12.5l4.5 4.5L20 7.5"/></svg>WhatsApp message campaigns</li>
+              <li><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 12.5l4.5 4.5L20 7.5"/></svg>E-commerce sales campaigns</li>
+              <li><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 12.5l4.5 4.5L20 7.5"/></svg>Audience targeting</li>
+              <li><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 12.5l4.5 4.5L20 7.5"/></svg>Retargeting campaigns</li>
+              <li><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 12.5l4.5 4.5L20 7.5"/></svg>Creative testing</li>
+              <li><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 12.5l4.5 4.5L20 7.5"/></svg>Campaign optimization</li>
+              <li><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 12.5l4.5 4.5L20 7.5"/></svg>Conversion-focused strategies</li>
+            </ul>
+            <button class="svc-more" type="button" aria-expanded="false">View all features
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 9l6 6 6-6"/></svg>
+            </button>
+          </article>
+
+          <!-- 03 -->
+          <article class="svc svc--3 spotlight" data-reveal style="--d:.14s">
+            <span class="svc-water" aria-hidden="true">03</span>
+            <div class="svc-top">
+              <div class="svc-icon">
+                <span class="ear l" aria-hidden="true"></span><span class="ear r" aria-hidden="true"></span>
+                <img src="https://images.unsplash.com/photo-1485846234645-a62644f84728?auto=format&fit=crop&w=200&h=200&q=60" alt="" width="58" height="58" loading="lazy" onerror="this.style.display='none'">
+              </div>
+              <span class="svc-num">03</span>
+            </div>
+            <h3>UGC Content Creation</h3>
+            <p class="svc-tag">Authentic content that builds trust and converts.</p>
+            <ul class="svc-list">
+              <li><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 12.5l4.5 4.5L20 7.5"/></svg>Product videos</li>
+              <li><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 12.5l4.5 4.5L20 7.5"/></svg>Product reviews and testimonials</li>
+              <li><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 12.5l4.5 4.5L20 7.5"/></svg>Unboxing videos</li>
+              <li><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 12.5l4.5 4.5L20 7.5"/></svg>Product demonstrations</li>
+              <li><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 12.5l4.5 4.5L20 7.5"/></svg>Lifestyle content</li>
+              <li><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 12.5l4.5 4.5L20 7.5"/></svg>Voiceover and talking-head videos</li>
+              <li><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 12.5l4.5 4.5L20 7.5"/></svg>Short-form video content</li>
+              <li><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 12.5l4.5 4.5L20 7.5"/></svg>UGC ad creatives</li>
+            </ul>
+            <button class="svc-more" type="button" aria-expanded="false">View all features
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 9l6 6 6-6"/></svg>
+            </button>
+          </article>
+
+          <!-- 04 -->
+          <article class="svc svc--4 spotlight" data-reveal>
+            <span class="svc-water" aria-hidden="true">04</span>
+            <div class="svc-top">
+              <div class="svc-icon">
+                <span class="ear l" aria-hidden="true"></span><span class="ear r" aria-hidden="true"></span>
+                <img src="https://images.unsplash.com/photo-1523275335684-37898b6baf30?auto=format&fit=crop&w=200&h=200&q=60" alt="" width="58" height="58" loading="lazy" onerror="this.style.display='none'">
+              </div>
+              <span class="svc-num">04</span>
+            </div>
+            <h3>Product Photography</h3>
+            <p class="svc-tag">Scroll-stopping visuals that make products sell.</p>
+            <ul class="svc-list">
+              <li><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 12.5l4.5 4.5L20 7.5"/></svg>E-commerce product photography</li>
+              <li><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 12.5l4.5 4.5L20 7.5"/></svg>Studio and lifestyle shoots</li>
+              <li><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 12.5l4.5 4.5L20 7.5"/></svg>Social media product images</li>
+              <li><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 12.5l4.5 4.5L20 7.5"/></svg>Website product visuals</li>
+              <li><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 12.5l4.5 4.5L20 7.5"/></svg>Creative product shoots</li>
+              <li><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 12.5l4.5 4.5L20 7.5"/></svg>Image editing and retouching</li>
+              <li><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 12.5l4.5 4.5L20 7.5"/></svg>Ad-ready product visuals</li>
+            </ul>
+            <button class="svc-more" type="button" aria-expanded="false">View all features
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 9l6 6 6-6"/></svg>
+            </button>
+          </article>
+
+          <!-- 05 -->
+          <article class="svc svc--5 spotlight" data-reveal style="--d:.1s">
+            <span class="svc-water" aria-hidden="true">05</span>
+            <div class="svc-top">
+              <div class="svc-icon">
+                <span class="ear l" aria-hidden="true"></span><span class="ear r" aria-hidden="true"></span>
+                <img src="https://images.unsplash.com/photo-1598550476439-6847785fcea6?auto=format&fit=crop&w=200&h=200&q=60" alt="" width="58" height="58" loading="lazy" onerror="this.style.display='none'">
+              </div>
+              <span class="svc-num">05</span>
+            </div>
+            <h3>YouTube Organic Growth</h3>
+            <p class="svc-tag">Turn your channel into a growth engine.</p>
+            <ul class="svc-list">
+              <li><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 12.5l4.5 4.5L20 7.5"/></svg>Channel setup and optimization</li>
+              <li><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 12.5l4.5 4.5L20 7.5"/></svg>YouTube SEO</li>
+              <li><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 12.5l4.5 4.5L20 7.5"/></svg>Keyword research</li>
+              <li><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 12.5l4.5 4.5L20 7.5"/></svg>Video title and description optimization</li>
+              <li><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 12.5l4.5 4.5L20 7.5"/></svg>Thumbnail strategy</li>
+              <li><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 12.5l4.5 4.5L20 7.5"/></svg>YouTube Shorts growth</li>
+              <li><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 12.5l4.5 4.5L20 7.5"/></svg>Content planning</li>
+              <li><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 12.5l4.5 4.5L20 7.5"/></svg>Watch-time and subscriber growth</li>
+              <li><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 12.5l4.5 4.5L20 7.5"/></svg>Performance reporting</li>
+            </ul>
+            <button class="svc-more" type="button" aria-expanded="false">View all features
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 9l6 6 6-6"/></svg>
+            </button>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ PROCESS ============ -->
+    <section class="section light" id="process">
+      <div class="container">
+        <div class="section-head">
+          <p class="eyebrow" data-reveal>The process</p>
+          <h2 data-reveal style="--d:.08s">How we'll <span class="accent">grow together.</span></h2>
+        </div>
+        <ol class="steps" id="steps">
+          <span class="steps-line" aria-hidden="true"><span class="steps-fill" id="stepsFill"></span></span>
+          <li class="step" data-reveal>
+            <span class="step-dot" aria-hidden="true">01</span>
+            <h3>Discovery Call</h3>
+            <p>I take time to understand your business, your audience, and the goals that actually matter.</p>
+          </li>
+          <li class="step" data-reveal style="--d:.1s">
+            <span class="step-dot" aria-hidden="true">02</span>
+            <h3>Strategy</h3>
+            <p>You get a clear, data-backed growth plan built around your offer and your market.</p>
+          </li>
+          <li class="step" data-reveal style="--d:.2s">
+            <span class="step-dot" aria-hidden="true">03</span>
+            <h3>Execution</h3>
+            <p>Content, campaigns, and creatives delivered consistently — week after week.</p>
+          </li>
+          <li class="step" data-reveal style="--d:.3s">
+            <span class="step-dot" aria-hidden="true">04</span>
+            <h3>Reporting &amp; Scaling</h3>
+            <p>Transparent reports and continuous optimization, so what works gets scaled.</p>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- ============ RESULTS / CASE STUDY ============ -->
+    <section class="section results" id="results">
+      <div class="container">
+        <div class="section-head center">
+          <p class="eyebrow" data-reveal>Case study</p>
+          <h2 data-reveal style="--d:.08s">Results that <span class="accent">speak.</span></h2>
+        </div>
+
+        <div class="case-card" id="caseCard" data-reveal>
+          <div class="case-grid">
+            <div class="case-info">
+              <p class="case-label">Client</p>
+              <p class="case-client">Modern Solar &amp; CCTV</p>
+              <p class="case-service">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 12.5l4.5 4.5L20 7.5"/></svg>
+                Organic Social Media Management &amp; LinkedIn Growth
+              </p>
+              <p class="case-sum">Through consistent content, product-focused posts, and organic growth strategies, we achieved:</p>
+            </div>
+
+            <!-- case study photo -->
+            <div class="case-photo">
+              <img src="https://images.unsplash.com/photo-1509391366360-2e959784a276?auto=format&fit=crop&w=1200&q=70" alt="Solar panel installation by Modern Solar &amp; CCTV" loading="lazy" onerror="this.parentNode.style.display='none'">
+              <div class="case-photo-badge">
+                <span class="case-photo-stat"><strong>5.8K+</strong> Organic Views</span>
+                <span class="dash-pill"><i></i>100% Organic</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="stats">
+            <div class="stat">
+              <p class="stat-value" data-count="5.8" data-dec="1" data-suffix="K+">5.8K+</p>
+              <p class="stat-label">Views</p>
+            </div>
+            <div class="stat">
+              <p class="stat-value" data-count="25" data-dec="0" data-suffix="">25</p>
+              <p class="stat-label">New Subscribers</p>
+            </div>
+            <div class="stat">
+              <p class="stat-value" data-count="100" data-dec="0" data-suffix="%">100%</p>
+              <p class="stat-label">Organic — No Paid Ads</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ WHY WORK WITH ME ============ -->
+    <section class="section" id="why">
+      <div class="container">
+        <div class="section-head">
+          <p class="eyebrow" data-reveal>Why me</p>
+          <h2 data-reveal style="--d:.08s">Why brands choose to <span class="accent">work with me.</span></h2>
+        </div>
+        <div class="why-grid">
+          <article class="tile tile--dark" data-reveal>
+            <div class="tile-icon"><span class="ear l" aria-hidden="true"></span><span class="ear r" aria-hidden="true"></span>
+              <img src="https://images.unsplash.com/photo-1529699211952-734e80c4d42b?auto=format&fit=crop&w=200&h=200&q=60" alt="" width="56" height="56" loading="lazy" onerror="this.style.display='none'">
+            </div>
+            <h3>Strategy-driven marketing</h3>
+            <p>Every post, ad, and campaign is tied to a clear business goal — never posted just to fill a calendar.</p>
+          </article>
+          <article class="tile tile--light" data-reveal style="--d:.07s">
+            <div class="tile-icon"><span class="ear l" aria-hidden="true"></span><span class="ear r" aria-hidden="true"></span>
+              <img src="https://images.unsplash.com/photo-1519389950473-47ba0277781c?auto=format&fit=crop&w=200&h=200&q=60" alt="" width="56" height="56" loading="lazy" onerror="this.style.display='none'">
+            </div>
+            <h3>Creative and data-based approach</h3>
+            <p>Ideas backed by insights, then refined by what the numbers say — creativity with accountability.</p>
+          </article>
+          <article class="tile tile--dark" data-reveal style="--d:.14s">
+            <div class="tile-icon"><span class="ear l" aria-hidden="true"></span><span class="ear r" aria-hidden="true"></span>
+              <img src="https://images.unsplash.com/photo-1517976487492-5750f3195933?auto=format&fit=crop&w=200&h=200&q=60" alt="" width="56" height="56" loading="lazy" onerror="this.style.display='none'">
+            </div>
+            <h3>Organic + paid growth solutions</h3>
+            <p>Grow steadily with organic content, then scale fast with precision-targeted campaigns.</p>
+          </article>
+          <article class="tile tile--light" data-reveal>
+            <div class="tile-icon"><span class="ear l" aria-hidden="true"></span><span class="ear r" aria-hidden="true"></span>
+              <img src="https://images.unsplash.com/photo-1499951360447-b19be8fe80f5?auto=format&fit=crop&w=200&h=200&q=60" alt="" width="56" height="56" loading="lazy" onerror="this.style.display='none'">
+            </div>
+            <h3>Consistent content management</h3>
+            <p>A steady, on-brand stream of content — planned, produced, and published week after week.</p>
+          </article>
+          <article class="tile tile--dark" data-reveal style="--d:.07s">
+            <div class="tile-icon"><span class="ear l" aria-hidden="true"></span><span class="ear r" aria-hidden="true"></span>
+              <img src="https://images.unsplash.com/photo-1543286386-713bdd548da4?auto=format&fit=crop&w=200&h=200&q=60" alt="" width="56" height="56" loading="lazy" onerror="this.style.display='none'">
+            </div>
+            <h3>Transparent performance reporting</h3>
+            <p>Clear, honest reports that show exactly what's working, what's not, and what we'll do next.</p>
+          </article>
+          <article class="tile tile--light" data-reveal style="--d:.14s">
+            <div class="tile-icon"><span class="ear l" aria-hidden="true"></span><span class="ear r" aria-hidden="true"></span>
+              <img src="https://images.unsplash.com/photo-1521791136064-7986c2920216?auto=format&fit=crop&w=200&h=200&q=60" alt="" width="56" height="56" loading="lazy" onerror="this.style.display='none'">
+            </div>
+            <h3>Business-focused results</h3>
+            <p>Leads, inquiries, and sales — the metrics your business actually feels, not vanity numbers.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ CTA BANNER ============ -->
+    <section style="padding-bottom:clamp(84px,11vw,148px)">
+      <div class="container">
+        <div class="cta-panel" data-reveal>
+          <div class="cta-panda" aria-hidden="true">
+            <img src="panda.jpeg" alt="" width="118" height="118" loading="lazy" data-panda>
+          </div>
+          <h2>Ready to grow your brand?</h2>
+          <p class="cta-copy">If you want to improve your brand's social media presence and generate more business opportunities, let's discuss your goals.</p>
+          <a class="btn btn-white magnetic" href="#contact">
+            Book Your Free Consultation
+            <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ CONTACT ============ -->
+    <section class="section" id="contact" style="padding-top:0">
+      <div class="container contact-grid">
+        <div class="contact-copy">
+          <p class="eyebrow" data-reveal>Contact</p>
+          <h2 data-reveal style="--d:.08s">Let's make your brand <span class="accent">impossible to ignore.</span></h2>
+          <p data-reveal style="--d:.16s">Whether you need full social media management, high-converting ad campaigns, or scroll-stopping content — send a message and let's talk about your goals.</p>
+
+          <div class="contact-cards" data-reveal style="--d:.24s">
+            <div class="ccard">
+              <span class="ccard-icon" aria-hidden="true">
+                <span class="ear l"></span><span class="ear r"></span>
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M12 3a9 9 0 0 0-7.8 13.4L3 21l4.8-1.2A9 9 0 1 0 12 3z"/><path d="M9 8.6c0 3.4 3 6.4 6.4 6.4l1.1-1.7-2.1-1.3-1 .8c-1-.4-2-1.4-2.4-2.4l.8-1-1.3-2.1-1.5 1.3z" fill="currentColor" stroke="none"/></svg>
+              </span>
+              <span class="ccard-body">
+                <small>WhatsApp</small>
+                <strong>0328 1206398</strong>
+              </span>
+              <button class="ccard-copy" type="button" data-copy="0328 1206398" aria-label="Copy WhatsApp number">
+                <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="9" y="9" width="11" height="11" rx="2.5"/><path d="M5 15H4.5A1.5 1.5 0 0 1 3 13.5v-9A1.5 1.5 0 0 1 4.5 3h9A1.5 1.5 0 0 1 15 4.5V5"/></svg>
+              </button>
+              <a href="https://wa.me/923281206398" target="_blank" rel="noopener" class="ccard-copy" aria-label="Open WhatsApp chat" style="display:grid">
+                <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17L17 7M9 7h8v8"/></svg>
+              </a>
+            </div>
+            <div class="ccard">
+              <span class="ccard-icon" aria-hidden="true">
+                <span class="ear l"></span><span class="ear r"></span>
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="5.5" width="18" height="13" rx="3"/><path d="M4 7.5l8 5.5 8-5.5"/></svg>
+              </span>
+              <span class="ccard-body">
+                <small>Email</small>
+                <strong>Haroonrasool289@gmail.com</strong>
+              </span>
+              <button class="ccard-copy" type="button" data-copy="Haroonrasool289@gmail.com" aria-label="Copy email address">
+                <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="9" y="9" width="11" height="11" rx="2.5"/><path d="M5 15H4.5A1.5 1.5 0 0 1 3 13.5v-9A1.5 1.5 0 0 1 4.5 3h9A1.5 1.5 0 0 1 15 4.5V5"/></svg>
+              </button>
+              <a href="mailto:Haroonrasool289@gmail.com" class="ccard-copy" aria-label="Send an email" style="display:grid">
+                <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17L17 7M9 7h8v8"/></svg>
+              </a>
+            </div>
+          </div>
+
+          <p class="contact-note" data-reveal style="--d:.3s"><i aria-hidden="true"></i>Usually replies within a few hours.</p>
+        </div>
+
+        <div class="form-card" data-reveal style="--d:.15s">
+          <form id="contactForm" novalidate>
+            <div class="form-row">
+              <div class="field">
+                <input type="text" id="f-name" name="name" placeholder=" " autocomplete="name" required>
+                <label for="f-name">Your name</label>
+                <small class="field-err">Please enter your name.</small>
+              </div>
+              <div class="field">
+                <input type="email" id="f-email" name="email" placeholder=" " autocomplete="email" required>
+                <label for="f-email">Email address</label>
+                <small class="field-err">Please enter a valid email address.</small>
+              </div>
+            </div>
+            <div class="form-row">
+              <div class="field">
+                <input type="tel" id="f-phone" name="phone" placeholder=" " autocomplete="tel" required>
+                <label for="f-phone">WhatsApp number</label>
+                <small class="field-err">Please enter a valid WhatsApp number.</small>
+              </div>
+              <div class="field field--select">
+                <label for="f-service">Service you're interested in</label>
+                <select id="f-service" name="service" required>
+                  <option value="" selected disabled>Select a service</option>
+                  <option>Organic Social Media Growth</option>
+                  <option>Meta Ads &amp; Paid Growth</option>
+                  <option>UGC Content Creation</option>
+                  <option>Product Photography</option>
+                  <option>YouTube Organic Growth</option>
+                </select>
+                <small class="field-err">Please choose a service.</small>
+              </div>
+            </div>
+            <div class="field">
+              <textarea id="f-message" name="message" placeholder=" " required></textarea>
+              <label for="f-message">Tell me about your business and goals</label>
+              <small class="field-err">Please write a short message (at least 10 characters).</small>
+            </div>
+            <div class="form-foot">
+              <button class="btn btn-primary magnetic" type="submit">
+                Send via WhatsApp
+                <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3a9 9 0 0 0-7.8 13.4L3 21l4.8-1.2A9 9 0 1 0 12 3z"/><path d="M9 8.6c0 3.4 3 6.4 6.4 6.4l1.1-1.7-2.1-1.3-1 .8c-1-.4-2-1.4-2.4-2.4l.8-1-1.3-2.1-1.5 1.3z" fill="currentColor" stroke="none"/></svg>
+              </button>
+              <p class="form-hint">Opens WhatsApp with your message pre-filled. Nothing is stored on this site.</p>
+            </div>
+          </form>
+
+          <div class="form-success" id="formSuccess" role="status">
+            <span class="ok">
+              <svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 12.5l4.5 4.5L20 7.5"/></svg>
+            </span>
+            <h3>Message ready!</h3>
+            <p>WhatsApp is opening in a new tab with your message pre-filled — just hit send and I'll get back to you shortly.</p>
+            <button class="btn btn-ghost btn-sm" type="button" id="formReset">Send another message</button>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ============ FOOTER ============ -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="f-brand">
+          <a class="brand" href="#home" aria-label="Back to top — home">
+            <span class="brand-logo panda-frame"><img src="panda.jpeg" alt="" width="42" height="42" loading="lazy" data-panda></span>
+            <span class="brand-name">Haroon <em>Rasool</em></span>
+          </a>
+          <p>Social media strategy that turns attention into leads, inquiries, and sales.</p>
+        </div>
+        <nav class="f-col" aria-label="Footer">
+          <h3>Quick links</h3>
+          <div class="f-links">
+            <a href="about.html">About</a>
+            <a href="services.html">Services</a>
+            <a href="#process">Process</a>
+            <a href="#results">Results</a>
+            <a href="#why">Why Me</a>
+            <a href="#contact">Contact</a>
+          </div>
+        </nav>
+        <div class="f-col">
+          <h3>Get in touch</h3>
+          <div class="f-links">
+            <a href="https://wa.me/923281206398" target="_blank" rel="noopener">WhatsApp — 0328 1206398</a>
+            <a href="mailto:Haroonrasool289@gmail.com">Haroonrasool289@gmail.com</a>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>© 2026 Haroon Rasool. All rights reserved.</p>
+        <button class="to-top" id="toTop" type="button" aria-label="Back to top">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 19V5M6 11l6-6 6 6"/></svg>
+        </button>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Floating WhatsApp button -->
+  <a class="wa-float" href="https://wa.me/923281206398" target="_blank" rel="noopener" aria-label="Chat with Haroon on WhatsApp">
+    <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M12 3a9 9 0 0 0-7.8 13.4L3 21l4.8-1.2A9 9 0 1 0 12 3z"/><path d="M9 8.6c0 3.4 3 6.4 6.4 6.4l1.1-1.7-2.1-1.3-1 .8c-1-.4-2-1.4-2.4-2.4l.8-1-1.3-2.1-1.5 1.3z" fill="currentColor" stroke="none"/></svg>
+  </a>
+
+  <!-- Toast -->
+  <div class="toast" id="toast" role="status" aria-live="polite">
+    <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 12.5l4.5 4.5L20 7.5"/></svg>
+    <span id="toastMsg">Copied!</span>
+  </div>
+
+  <script>
+  /* ========================================================================
+     HAROON RASOOL — site scripts
+     Vanilla JS only. Every module is defensive (checks before it runs) and
+     respects prefers-reduced-motion.
+     ======================================================================== */
+  (function () {
+    'use strict';
+
+    document.documentElement.classList.remove('no-js');
+    document.documentElement.classList.add('js');
+
+    var REDUCED = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+    var FINE = window.matchMedia('(hover: hover) and (pointer: fine)').matches;
+    var clamp = function (v, min, max) { return Math.min(max, Math.max(min, v)); };
+
+    /* ---- Panda fallback: if panda.jpeg is missing, render the SVG mark -- */
+    var PANDA_FALLBACK = 'data:image/svg+xml;charset=utf-8,' + encodeURIComponent(
+      '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">' +
+      '<defs><radialGradient id="b" cx="50%" cy="35%" r="80%"><stop offset="0" stop-color="#2A3FD1"/><stop offset="1" stop-color="#141C6E"/></radialGradient>' +
+      '<linearGradient id="s" x1="0" x2="0" y1="0" y2="1"><stop offset="0" stop-color="#7A3FE0"/><stop offset="1" stop-color="#5A24B8"/></linearGradient></defs>' +
+      '<circle cx="256" cy="256" r="256" fill="url(#b)"/>' +
+      '<circle cx="256" cy="256" r="233" fill="none" stroke="#F7F6FB" stroke-width="10"/>' +
+      '<circle cx="150" cy="116" r="52" fill="#0D0D14"/><circle cx="362" cy="116" r="52" fill="#0D0D14"/>' +
+      '<circle cx="256" cy="238" r="148" fill="#F7F6FB"/>' +
+      '<path d="M96 512c0-92 72-128 160-128s160 36 160 128z" fill="url(#s)"/>' +
+      '<path d="M206 390c14 14 86 14 100 0" stroke="#3E1B86" stroke-width="10" fill="none" stroke-linecap="round"/>' +
+      '<ellipse cx="204" cy="226" rx="40" ry="52" fill="#0D0D14" transform="rotate(-18 204 226)"/>' +
+      '<ellipse cx="308" cy="226" rx="40" ry="52" fill="#0D0D14" transform="rotate(18 308 226)"/>' +
+      '<circle cx="210" cy="220" r="11" fill="#fff"/><circle cx="302" cy="220" r="11" fill="#fff"/>' +
+      '<circle cx="210" cy="220" r="5" fill="#0D0D14"/><circle cx="302" cy="220" r="5" fill="#0D0D14"/>' +
+      '<ellipse cx="256" cy="282" rx="15" ry="10" fill="#0D0D14"/>' +
+      '<path d="M230 306q26 20 52 0" stroke="#0D0D14" stroke-width="6" fill="none" stroke-linecap="round"/>' +
+      '<ellipse cx="166" cy="278" rx="17" ry="9" fill="#F2C7D9" opacity=".5"/><ellipse cx="346" cy="278" rx="17" ry="9" fill="#F2C7D9" opacity=".5"/>' +
+      '</svg>'
+    );
+    document.querySelectorAll('img[data-panda], .preloader img').forEach(function (img) {
+      img.addEventListener('error', function handler() {
+        img.removeEventListener('error', handler);
+        img.src = PANDA_FALLBACK;
+      });
+    });
+
+    /* ---- Preloader ----------------------------------------------------- */
+    var preloader = document.getElementById('preloader');
+    if (preloader) {
+      var killPre = function () {
+        if (!preloader) return;
+        preloader.parentNode.removeChild(preloader);
+        preloader = null;
+      };
+      if (REDUCED) { killPre(); }
+      else {
+        window.addEventListener('load', function () { setTimeout(killPre, 350); });
+        setTimeout(killPre, 2600); /* safety: never trap the visitor */
+      }
+    }
+
+    /* ---- Scroll reveals ------------------------------------------------- */
+    var revealEls = document.querySelectorAll('[data-reveal]');
+    if ('IntersectionObserver' in window && !REDUCED) {
+      var revealIO = new IntersectionObserver(function (entries) {
+        entries.forEach(function (entry) {
+          if (entry.isIntersecting) {
+            entry.target.classList.add('in');
+            revealIO.unobserve(entry.target);
+          }
+        });
+      }, { threshold: 0.14, rootMargin: '0px 0px -6% 0px' });
+      revealEls.forEach(function (el) { revealIO.observe(el); });
+    } else {
+      revealEls.forEach(function (el) { el.classList.add('in'); });
+    }
+
+    /* ---- Animated counters ---------------------------------------------- */
+    var counters = document.querySelectorAll('[data-count]');
+    var runCounter = function (el) {
+      var target = parseFloat(el.getAttribute('data-count'));
+      var dec = parseInt(el.getAttribute('data-dec') || '0', 10);
+      var suffix = el.getAttribute('data-suffix') || '';
+      if (REDUCED) { el.textContent = target.toFixed(dec) + suffix; return; }
+      var dur = 1700, start = null;
+      var tick = function (ts) {
+        if (start === null) start = ts;
+        var p = clamp((ts - start) / dur, 0, 1);
+        var eased = 1 - Math.pow(1 - p, 3); /* easeOutCubic */
+        el.textContent = (target * eased).toFixed(dec) + suffix;
+        if (p < 1) requestAnimationFrame(tick);
+      };
+      requestAnimationFrame(tick);
+    };
+    if ('IntersectionObserver' in window) {
+      var countIO = new IntersectionObserver(function (entries) {
+        entries.forEach(function (entry) {
+          if (entry.isIntersecting) { runCounter(entry.target); countIO.unobserve(entry.target); }
+        });
+      }, { threshold: 0.5 });
+      counters.forEach(function (el) { countIO.observe(el); });
+    }
+
+    /* ---- Process line: draws with scroll -------------------------------- */
+    var steps = document.getElementById('steps');
+    var stepsFill = document.getElementById('stepsFill');
+    if (steps && stepsFill) {
+      var narrowMQ = window.matchMedia('(max-width: 999px)');
+      var updateSteps = function () {
+        var rect = steps.getBoundingClientRect();
+        var vh = window.innerHeight || document.documentElement.clientHeight;
+        var p = clamp((vh * 0.78 - rect.top) / rect.height, 0, 1);
+        stepsFill.style.transform = narrowMQ.matches ? 'scaleY(' + p + ')' : 'scaleX(' + p + ')';
+      };
+      var stepsTicking = false;
+      var onScrollSteps = function () {
+        if (stepsTicking) return;
+        stepsTicking = true;
+        requestAnimationFrame(function () { updateSteps(); stepsTicking = false; });
+      };
+      window.addEventListener('scroll', onScrollSteps, { passive: true });
+      window.addEventListener('resize', onScrollSteps);
+      updateSteps();
+    }
+
+    /* ---- Navbar state + active section link ----------------------------- */
+    var nav = document.getElementById('nav');
+    var navTicking = false;
+    var onScrollNav = function () {
+      if (navTicking) return;
+      navTicking = true;
+      requestAnimationFrame(function () {
+        nav.classList.toggle('is-scrolled', (window.scrollY || 0) > 12);
+        navTicking = false;
+      });
+    };
+    if (nav) {
+      window.addEventListener('scroll', onScrollNav, { passive: true });
+      onScrollNav();
+    }
+    var navAnchors = document.querySelectorAll('.nav-links a[href^="#"]');
+    if ('IntersectionObserver' in window && navAnchors.length) {
+      var sectionMap = {};
+      navAnchors.forEach(function (a) {
+        var sec = document.querySelector(a.getAttribute('href'));
+        if (sec) sectionMap[sec.id] = a;
+      });
+      var activeIO = new IntersectionObserver(function (entries) {
+        entries.forEach(function (entry) {
+          if (entry.isIntersecting) {
+            navAnchors.forEach(function (a) { a.removeAttribute('aria-current'); });
+            var link = sectionMap[entry.target.id];
+            if (link) link.setAttribute('aria-current', 'true');
+          }
+        });
+      }, { rootMargin: '-40% 0px -55% 0px' });
+      Object.keys(sectionMap).forEach(function (id) {
+        var sec = document.getElementById(id);
+        if (sec) activeIO.observe(sec);
+      });
+    }
+
+    /* ---- Mobile menu ------------------------------------------------------ */
+    var burger = document.getElementById('burger');
+    var menu = document.getElementById('mobileMenu');
+    var setMenu = function (open) {
+      if (!burger || !menu) return;
+      burger.setAttribute('aria-expanded', open ? 'true' : 'false');
+      burger.setAttribute('aria-label', open ? 'Close menu' : 'Open menu');
+      menu.classList.toggle('is-open', open);
+      menu.setAttribute('aria-hidden', open ? 'false' : 'true');
+      document.body.style.overflow = open ? 'hidden' : '';
+      if (open) {
+        var first = menu.querySelector('a');
+        if (first) first.focus({ preventScroll: true });
+      }
+    };
+    if (burger && menu) {
+      burger.addEventListener('click', function () {
+        setMenu(burger.getAttribute('aria-expanded') !== 'true');
+      });
+      menu.addEventListener('click', function (e) {
+        if (e.target.closest('a')) setMenu(false);
+      });
+      document.addEventListener('keydown', function (e) {
+        if (burger.getAttribute('aria-expanded') !== 'true') return;
+        if (e.key === 'Escape') { setMenu(false); burger.focus(); return; }
+        if (e.key === 'Tab') {
+          /* keep focus inside menu + burger while open */
+          var focusables = Array.prototype.slice.call(menu.querySelectorAll('a, button'));
+          focusables.push(burger);
+          var first = focusables[0], last = focusables[focusables.length - 1];
+          if (e.shiftKey && document.activeElement === first) { e.preventDefault(); last.focus(); }
+          else if (!e.shiftKey && document.activeElement === last) { e.preventDefault(); first.focus(); }
+        }
+      });
+    }
+
+    /* ---- Service card accordions (mobile) -------------------------------- */
+    document.querySelectorAll('.svc-more').forEach(function (btn) {
+      var card = btn.closest('.svc');
+      var list = card ? card.querySelector('.svc-list') : null;
+      if (!card || !list) return;
+      var n = list.querySelectorAll('li').length;
+      var setOpen = function (open) {
+        card.classList.toggle('is-open', open);
+        btn.setAttribute('aria-expanded', open ? 'true' : 'false');
+        btn.firstChild.textContent = open ? 'Show less' : 'View all ' + n + ' features';
+      };
+      btn.firstChild.textContent = 'View all ' + n + ' features';
+      btn.addEventListener('click', function () {
+        setOpen(btn.getAttribute('aria-expanded') !== 'true');
+      });
+    });
+
+    /* ---- Spotlight follow on service cards -------------------------------- */
+    if (FINE && !REDUCED) {
+      document.querySelectorAll('.spotlight').forEach(function (card) {
+        card.addEventListener('pointermove', function (e) {
+          var rect = card.getBoundingClientRect();
+          card.style.setProperty('--mx', (e.clientX - rect.left) + 'px');
+          card.style.setProperty('--my', (e.clientY - rect.top) + 'px');
+        });
+      });
+    }
+
+    /* ---- Custom cursor ------------------------------------------------------ */
+    if (FINE && !REDUCED) {
+      var dot = document.querySelector('.cursor-dot');
+      var ring = document.querySelector('.cursor-ring');
+      if (dot && ring) {
+        document.documentElement.classList.add('has-cursor');
+        var mx = -100, my = -100, rx = -100, ry = -100;
+        var cursorTicking = false;
+        window.addEventListener('pointermove', function (e) {
+          mx = e.clientX; my = e.clientY;
+          ring.style.opacity = '1';
+          if (!cursorTicking) {
+            cursorTicking = true;
+            requestAnimationFrame(function () {
+              dot.style.transform = 'translate(' + (mx - 3) + 'px,' + (my - 3) + 'px)';
+              rx += (mx - rx) * 0.16; ry += (my - ry) * 0.16;
+              var half = ring.offsetWidth / 2;
+              ring.style.transform = 'translate(' + (rx - half) + 'px,' + (ry - half) + 'px)';
+              cursorTicking = false;
+            });
+          }
+        }, { passive: true });
+        document.addEventListener('mouseleave', function () { ring.style.opacity = '0'; });
+        var hoverTargets = 'a, button, select, input, textarea, .chip';
+        document.addEventListener('pointerover', function (e) {
+          if (e.target.closest(hoverTargets)) ring.classList.add('is-active');
+        });
+        document.addEventListener('pointerout', function (e) {
+          if (e.target.closest(hoverTargets)) ring.classList.remove('is-active');
+        });
+        document.addEventListener('pointerdown', function () { ring.classList.add('is-down'); });
+        document.addEventListener('pointerup', function () { ring.classList.remove('is-down'); });
+      }
+    }
+
+    /* ---- Magnetic buttons ----------------------------------------------------- */
+    if (FINE && !REDUCED) {
+      document.querySelectorAll('.magnetic').forEach(function (btn) {
+        var strength = 0.32;
+        btn.addEventListener('pointermove', function (e) {
+          var rect = btn.getBoundingClientRect();
+          var dx = e.clientX - (rect.left + rect.width / 2);
+          var dy = e.clientY - (rect.top + rect.height / 2);
+          btn.style.transform = 'translate(' + (dx * strength) + 'px,' + (dy * strength * 0.8) + 'px)';
+        });
+        btn.addEventListener('pointerleave', function () { btn.style.transform = ''; });
+      });
+    }
+
+    /* ---- Hero mouse parallax ---------------------------------------------------- */
+    var stage = document.getElementById('avatarStage');
+    if (stage && FINE && !REDUCED) {
+      var layers = stage.querySelectorAll('[data-depth]');
+      var px = 0, py = 0, tx = 0, ty = 0, parallaxRunning = false;
+      var loop = function () {
+        px += (tx - px) * 0.08; py += (ty - py) * 0.08;
+        layers.forEach(function (el) {
+          var d = parseFloat(el.getAttribute('data-depth')) || 0;
+          el.style.transform = 'translate(' + (px * d * 0.5) + 'px,' + (py * d * 0.5) + 'px)';
+        });
+        if (Math.abs(tx - px) > 0.001 || Math.abs(ty - py) > 0.001) {
+          requestAnimationFrame(loop);
+        } else { parallaxRunning = false; }
+      };
+      var kick = function () { if (!parallaxRunning) { parallaxRunning = true; requestAnimationFrame(loop); } };
+      var hero = document.getElementById('home');
+      hero.addEventListener('pointermove', function (e) {
+        var r = hero.getBoundingClientRect();
+        tx = (e.clientX - r.left) / r.width - 0.5;
+        ty = (e.clientY - r.top) / r.height - 0.5;
+        kick();
+      });
+      hero.addEventListener('pointerleave', function () { tx = 0; ty = 0; kick(); });
+    }
+
+    /* ---- Copy to clipboard + toast -------------------------------------------- */
+    var toast = document.getElementById('toast');
+    var toastMsg = document.getElementById('toastMsg');
+    var toastTimer = null;
+    var showToast = function (msg) {
+      if (!toast) return;
+      toastMsg.textContent = msg;
+      toast.classList.add('is-visible');
+      clearTimeout(toastTimer);
+      toastTimer = setTimeout(function () { toast.classList.remove('is-visible'); }, 1900);
+    };
+    var copyText = function (text) {
+      if (navigator.clipboard && navigator.clipboard.writeText) {
+        navigator.clipboard.writeText(text).then(
+          function () { showToast('Copied!'); },
+          function () { fallbackCopy(text); }
+        );
+      } else { fallbackCopy(text); }
+    };
+    var fallbackCopy = function (text) {
+      var ta = document.createElement('textarea');
+      ta.value = text;
+      ta.setAttribute('readonly', '');
+      ta.style.position = 'fixed'; ta.style.opacity = '0';
+      document.body.appendChild(ta);
+      ta.select();
+      try { document.execCommand('copy'); showToast('Copied!'); }
+      catch (err) { showToast('Press Ctrl+C to copy'); }
+      document.body.removeChild(ta);
+    };
+    document.querySelectorAll('[data-copy]').forEach(function (btn) {
+      btn.addEventListener('click', function () { copyText(btn.getAttribute('data-copy')); });
+    });
+
+    /* ---- Contact form -> pre-filled WhatsApp message ----------------------------- */
+    var form = document.getElementById('contactForm');
+    var success = document.getElementById('formSuccess');
+    if (form && success) {
+      var waNumber = '923281206398';
+      var fields = {
+        name: document.getElementById('f-name'),
+        email: document.getElementById('f-email'),
+        phone: document.getElementById('f-phone'),
+        service: document.getElementById('f-service'),
+        message: document.getElementById('f-message')
+      };
+      var validators = {
+        name: function (v) { return v.trim().length >= 2; },
+        email: function (v) { return /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(v.trim()); },
+        phone: function (v) { return /^\+?[0-9\s\-().]{7,18}$/.test(v.trim()); },
+        service: function (v) { return v !== ''; },
+        message: function (v) { return v.trim().length >= 10; }
+      };
+      var validateField = function (key) {
+        var el = fields[key];
+        var ok = validators[key](el.value);
+        el.closest('.field').classList.toggle('is-invalid', !ok);
+        return ok;
+      };
+      Object.keys(fields).forEach(function (key) {
+        fields[key].addEventListener('input', function () {
+          fields[key].closest('.field').classList.remove('is-invalid');
+        });
+      });
+      form.addEventListener('submit', function (e) {
+        e.preventDefault();
+        var firstBad = null;
+        Object.keys(fields).forEach(function (key) {
+          if (!validateField(key) && !firstBad) firstBad = fields[key];
+        });
+        if (firstBad) { firstBad.focus(); return; }
+        var lines = [
+          'Hi Haroon! My name is ' + fields.name.value.trim() + '.',
+          '',
+          'Service: ' + fields.service.value,
+          'Email: ' + fields.email.value.trim(),
+          'WhatsApp: ' + fields.phone.value.trim(),
+          '',
+          'Message: ' + fields.message.value.trim()
+        ];
+        var url = 'https://wa.me/' + waNumber + '?text=' + encodeURIComponent(lines.join('\n'));
+        window.open(url, '_blank', 'noopener');
+        form.style.visibility = 'hidden';
+        success.classList.add('is-visible');
+      });
+      var resetBtn = document.getElementById('formReset');
+      if (resetBtn) {
+        resetBtn.addEventListener('click', function () {
+          form.reset();
+          form.style.visibility = '';
+          success.classList.remove('is-visible');
+          fields.name.focus();
+        });
+      }
+    }
+
+    /* ---- Back to top ------------------------------------------------------------- */
+    var toTop = document.getElementById('toTop');
+    if (toTop) {
+      toTop.addEventListener('click', function () {
+        window.scrollTo({ top: 0, behavior: REDUCED ? 'auto' : 'smooth' });
+      });
+    }
+  })();
+  </script>
+</body>
+</html>
